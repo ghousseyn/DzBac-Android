@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="fill_parent" >
+    
+    
+    <!--  
+     <com.facebook.widget.LoginButton
+        android:id="@+id/authButton_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+-->
+     <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_sign_dialog_facebook"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:text="@string/facebook"
+	    bootstrapbutton:bb_icon_left="fa-facebook"
+	    bootstrapbutton:bb_type="default"
+	/>
+     
+     <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_sign_dialog_google"  
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+        android:visibility="gone"
+	    android:text="@string/google_plus_"
+	    bootstrapbutton:bb_icon_left="fa-google-plus"
+	    bootstrapbutton:bb_type="default"
+	/>
+     
+     <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_sign_dialog_email"  
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:text="@string/email"
+	    bootstrapbutton:bb_icon_left="fa-envelope-o"
+	    bootstrapbutton:bb_type="default"
+	/>
+     
+     
+     
+      <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        />
+     
+ 
+</LinearLayout>

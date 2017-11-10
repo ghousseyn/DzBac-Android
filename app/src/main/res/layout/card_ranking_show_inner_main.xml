@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+	xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+     >
+
+	<FrameLayout
+		android:id="@+id/frame_avatar"
+		android:layout_margin="5dp"
+		android:layout_alignParentLeft="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<de.hdodenhof.circleimageview.CircleImageView
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:id="@+id/avatar_user"
+			android:layout_width="@dimen/side_avatar_commentaire"
+			android:layout_height="@dimen/side_avatar_commentaire"
+			app:civ_border_width="2dp"
+			app:civ_border_color="#FFFFFF"/>
+
+
+		<com.beardedhen.androidbootstrap.FontAwesomeText
+			android:id="@+id/font_contribution"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|right"
+			fontawesometext:fa_icon="fa-check-square"
+			bootstrapbutton:bb_type="primary"
+			android:textColor="@color/Red"
+			android:layout_marginLeft="15dp"
+			android:textSize="17sp"
+			/>
+
+	</FrameLayout>
+    
+     <TextView
+        android:id="@+id/pseudo_user"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/frame_avatar"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="3dp"
+         android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+         android:text="zezrzerzer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/txt_points"
+        android:layout_toRightOf="@id/frame_avatar"
+        android:layout_below="@id/pseudo_user"
+        android:layout_margin="3dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/txt_count"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+     
+
+
+</RelativeLayout>

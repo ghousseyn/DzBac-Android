@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    android:id="@+id/relative_images"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+       <com.squalala.dzbac.utils.TouchImageView
+        android:id="@+id/daimajia_slider_image_full"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+   <!-- <uk.co.senab.photoview.PhotoView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/daimajia_slider_image_full"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>-->
+    
+    <ProgressBar
+        android:id="@+id/loading_bar"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+    
+     <item
+        android:id="@+id/menu_all_notification_read"
+        android:title="@string/menu_notifications_action"
+        app:actionLayout="@layout/menu_badge"
+        android:textSize="14sp"
+        app:showAsAction="always"
+      />
+
+</menu>

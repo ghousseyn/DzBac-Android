@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/app_bar"/>
+
+
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/editEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_below="@id/tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textCursorDrawable="@null"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        bootstrapbutton:be_roundedCorners="true"
+        bootstrapbutton:be_state="primary"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/editMdpLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEmailLogin"
+        bootstrapbutton:be_roundedCorners="true"
+        android:layout_margin="15dp"
+        bootstrapbutton:be_state="primary"
+        android:textCursorDrawable="@null"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint="@string/mot_de_passe"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </com.beardedhen.androidbootstrap.BootstrapEditText>
+
+
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/btn_connexion_conf"
+        android:text="@string/btn_me_connecter" />
+
+    <ProgressBar
+        android:id="@+id/progressLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editMdpLogin"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_recover_password"
+        android:text="@string/mdp_forgot"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_margin="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

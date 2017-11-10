@@ -1,0 +1,118 @@
+<resources>
+    <dimen name="list_card_padding_left">0dp</dimen>
+    <dimen name="list_card_padding_right">0dp</dimen>
+    <dimen name="list_card_padding_bottom">0dp</dimen>
+    <dimen name="list_card_padding_top">0dp</dimen>
+
+    <dimen name="card_shadow_height">1dp</dimen>
+
+    <dimen name="card_title">18sp</dimen>
+
+    <dimen name="min_width">48dp</dimen>
+    <dimen name="item_margin">2dp</dimen>
+    <dimen name="row_margin">2dp</dimen>
+    <dimen name="padding_horizontal">6dp</dimen>
+    <dimen name="padding_vertical">8dp</dimen>
+
+    <dimen name="flat_button_height">36dp</dimen>
+    <dimen name="flat_button_width">64dp</dimen>
+    <dimen name="flat_button_padding">8dp</dimen>
+
+    <dimen name="regular_text">14sp</dimen>
+
+    <dimen name="spacing">8dp</dimen>
+
+    <dimen name="size_path_dzbac">200dp</dimen>
+
+    <dimen name="sample_text_size">16sp</dimen>
+    <dimen name="spinner_text_size">20sp</dimen>
+    <dimen name="detail_text_size">10sp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="native_main_image_height">300dp</dimen>
+
+    <dimen name="avatar_user_call">150dp</dimen>
+    <!--
+        <dimen name="icon_call_accept"></dimen>
+        <dimen name="icon_call_denie"></dimen>-->
+
+        <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="drawer_width_extras">240dp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+
+    <dimen name="demo_title_section_margin">10dp</dimen>
+    <dimen name="demo_title_section_margin_bottom">1dp</dimen>
+    <dimen name="demo_title_section_margin_top">3dp</dimen>
+    <dimen name="demo_title_section_textsize">18sp</dimen>
+
+
+
+    <!--  Card customization ***************************************************  -->
+    <dimen name="text_message">15sp</dimen>
+
+
+    <!-- Card -->
+    <dimen name="card_base_empty_height">72dp</dimen>
+    <dimen name="card_extras_birth_width">350dp</dimen>
+
+    <dimen name="carddemo_extras_gplay_grid_columnwidth">140dp</dimen>
+    <dimen name="carddemo_extras_gplay_grid_columnwidth_card">125dp</dimen>
+
+    <dimen name="card_rose">250dp</dimen>
+
+    <!--Staggered -->
+    <dimen name="carddemo_extras_basestaggered_height1">120dp</dimen>
+    <dimen name="carddemo_extras_basestaggered_height2">150dp</dimen>
+    <dimen name="carddemo_extras_basestaggered_height3">180dp</dimen>
+
+    <dimen name="tool_bar_text_size">22sp</dimen>
+    <dimen name="main_screen_side_padding">10dp</dimen>
+    <dimen name="text_top_padding">25dp</dimen>
+    <dimen name="title_text_size">26sp</dimen>
+    <dimen name="tool_bar_height">56dp</dimen>
+
+    <dimen name="statusMargin">0dp</dimen>
+    <dimen name="userSpace">170dp</dimen>
+    <dimen name="photoMarginTop">16dp</dimen>
+
+
+    <!-- match_parent = -1dp / wrap_content = -2dp -->
+    <dimen name="drawerWidth">-1dp</dimen>
+
+
+    <!-- Tabs -->
+
+    <dimen name="toolbar_margin_start">72dp</dimen>
+    <dimen name="flexible_space_height">72dp</dimen>
+    <dimen name="flexible_space_image_height">240dp</dimen>
+    <dimen name="flexible_space_show_fab_offset">120dp</dimen>
+
+    <dimen name="parallax_image_height">180dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+
+
+
+    
+    <!-- 
+     
+      CUSTOM VALUES 
+    
+     -->
+     
+     <dimen name="height_show_annonce_slider">330dp</dimen>
+     
+     <dimen name="height_show_profile">250dp</dimen>
+     
+     <dimen name="side_avatar_commentaire">40dp</dimen>
+    <dimen name="contact_side_avatar_commentaire">80dp</dimen>
+     
+     <!-- Size text count messages main menu -->
+     <dimen name="size_count_message">9dp</dimen>
+     
+     
+     <!-- Dimension avatar ShowProfileActivity -->
+     <dimen name="dimen_avatar_show_profile">100dp</dimen>
+
+</resources>

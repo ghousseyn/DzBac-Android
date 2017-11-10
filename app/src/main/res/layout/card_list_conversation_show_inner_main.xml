@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+
+	<FrameLayout
+		android:id="@+id/frame_avatar"
+		android:layout_margin="5dp"
+		android:layout_alignParentLeft="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<de.hdodenhof.circleimageview.CircleImageView
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:id="@+id/avatar_user"
+			android:layout_width="@dimen/side_avatar_commentaire"
+			android:layout_height="@dimen/side_avatar_commentaire"
+			app:civ_border_width="2dp"
+			app:civ_border_color="#FFFFFF"/>
+
+
+		<com.beardedhen.androidbootstrap.FontAwesomeText
+			android:id="@+id/font_contribution"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|right"
+			fontawesometext:fa_icon="fa-check-square"
+			bootstrapbutton:bb_type="primary"
+			android:textColor="@color/Red"
+			android:layout_marginLeft="15dp"
+			android:textSize="17sp"
+			/>
+
+	</FrameLayout>
+    
+     <TextView
+        android:id="@+id/pseudo_user"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/frame_avatar"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="3dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    
+     <TextView
+        android:id="@+id/date_conversation"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:layout_margin="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+        android:id="@+id/titre_conversation"
+        android:layout_toRightOf="@id/frame_avatar"
+        android:layout_below="@id/pseudo_user"
+        android:layout_margin="3dp"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+     
+     <com.beardedhen.androidbootstrap.FontAwesomeText
+            android:id="@+id/message_lu"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    fontawesometext:fa_icon="fa-eye-slash"
+		    android:layout_below="@id/titre_conversation"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentBottom="true"
+		    android:layout_marginRight="3dp"
+		    android:textColor="@color/bleu_tres_clair"
+		    android:textSize="22sp"
+		/>
+    
+    
+    
+
+</RelativeLayout>

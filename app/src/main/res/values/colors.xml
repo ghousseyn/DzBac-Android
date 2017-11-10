@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<color name="white_alpha">#8FFF</color>
+	<color name="black_alpha">#2000</color>
+
+	<color name="green_600">#43A047</color>
+	<color name="orange_600">#F4511E</color>
+	<color name="teal">#B2DFDB</color>
+
+	<color name="cyan">#0097A7</color>
+	<color name="light_green">#689F38</color>
+	<color name="dark_green">#33691E</color>
+
+	<color name="username0">#e21400</color>
+	<color name="username1">#91580f</color>
+	<color name="username2">#f8a700</color>
+	<color name="username3">#f78b00</color>
+	<color name="username4">#58dc00</color>
+	<color name="username5">#287b00</color>
+	<color name="username6">#a8f07a</color>
+	<color name="username7">#4ae8c4</color>
+	<color name="username8">#3b88eb</color>
+	<color name="username9">#3824aa</color>
+	<color name="username10">#a700ff</color>
+	<color name="username11">#d300e7</color>
+
+	<array name="username_colors">
+		<item>@color/username0</item>
+		<item>@color/username1</item>
+		<item>@color/username2</item>
+		<item>@color/username3</item>
+		<item>@color/username4</item>
+		<item>@color/username5</item>
+		<item>@color/username6</item>
+		<item>@color/username7</item>
+		<item>@color/username8</item>
+		<item>@color/username9</item>
+		<item>@color/username10</item>
+		<item>@color/username11</item>
+	</array>
+
+	
+	<color name="green_call">#4bce23</color>
+	<color name="red_end_call">#f93d22</color>
+
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="colorPrimaryLight">#cfd8dc</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="colorAccentPressed">#FFECB3</color>
+
+	<color name="bg_msg_input">#e8e8e8</color>
+	<color name="text_msg_input">#626262</color>
+
+	<color name="white_custom">#FAFAFA</color>
+
+
+    <color name="text_color">#222222</color>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <color name="vert_icon_app">#059e7a</color>
+
+	<color name="grey">#65686D</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/vert_icon_app</item>
+    </integer-array>
+
+	<integer-array name="progress_top_bar">
+		<item>@color/vert_icon_app</item>
+		<item>@color/white</item>
+	</integer-array>
+
+
+    <color name="primary">#3f51b5</color>
+    <color name="primary_pressed">#088165</color>
+    <color name="ripple">#ff80ab</color>
+    <color name="accent">#ff4081</color>
+    <color name="accent_pressed">#f50057</color>
+    
+    <color name="titre_post_stagggered_inner"> #3F5D7D</color>
+
+	<color name="background">#e2e4fe</color>
+    <color name="demo_title_section_textcolor">#2a84a5</color>
+    
+      <color name="Grenadine">#2a84a5</color>
+      <color name="gris">#E1E2E2</color>
+      <color name="rouge">#FF0000</color>
+      <color name="jaune">#FFFF00</color>
+      <color name="bleu_clair">#53869D</color>
+      <color name="rouge_fonce_localisation">#A9401A</color>
+      <color name="bleu_tres_clair">#95CAE4</color>
+      
+
+    <!-- customize header standard title
+    <color name="card_text_color_header">#990066</color>
+    -->
+
+
+    <!-- color card -->
+    <color name="demoextra_card_background_color1">#FFBB33</color>
+    <color name="demoextra_card_background_color2">#98CC00</color>
+    <color name="demoextra_card_background_color3">#A966CC</color>
+    <color name="demoextra_card_background_color4">#33B4E4</color>
+    <color name="demoextra_card_background_color5">#FF4343</color>
+    <color name="demoextra_card_background_color6">#A11143</color>
+
+    <!-- Purchase -->
+    <color name="demo_extras_purchase_normal">#ececec</color>
+    <color name="demo_extras_purchase_pressed">#CCDF9F51</color>
+
+    <color name="demoextra_sticky_header_normal">#ffe74c3c</color>
+    <color name="demoextra_sticky_header_pressed">#ffc0392b</color>
+
+    <!-- Staggered-->
+    <color name="demo_card_staggered_subtitle">#66000000</color>
+
+    <!-- Weather -->
+    <color name="demoextra_card_line_weather_color">#E5E5E5</color>
+    <color name="demoextra_card_weather_city_color">#A4A4A4</color>
+    <color name="demoextra_card_weather_temperature_color">#868686</color>
+    <!--override the listlayout background-->
+    <color name="card_base_cardwithlist_background_list_color">@color/card_background</color>
+
+	<color name="color1">#9C27B0</color>
+	<color name="color2">#FF4081</color>
+	<color name="color3">#7B1FA2</color>
+	<color name="color4">#F8BBD0</color>
+	<color name="color5">#FF5252</color>
+	<color name="color6">#607D8B</color>
+	<color name="color7">#FF5722</color>
+	<color name="color8">#FFA000</color>
+
+
+
+	<color name="vert_menthe">#16B84E</color>
+    <color name="jaune_très_pale">#E2DFCE</color>
+    <color name="orange_clair">#FFD48E</color>
+    <color name="Saumon">#F88E55</color>
+    <color name="Aurore">#FFCB60</color>
+    <color name="Tangerine_orange">#FF7F00</color>
+    <color name="vert_smargadin">#01D758</color>
+    <color name="violet">#BF00FF</color>
+    <color name="bleu">#0F9DE8</color>
+    <color name="orange">#ED7F10</color>
+    <color name="rouge_bordeux">#6D071A</color>
+    <color name="rouge_nacarat">#FC5D5D</color>
+    <color name="rouge_terracota">#CC4E5C</color>
+    <color name="jaune_paille">#FEE347</color>
+    <color name="noir_réglisse">#2D241E</color>
+    <color name="blanc_argente">#FEFEFE</color>
+    <color name="bleu_facebook">#3B5998</color>
+    
+    <!-- 
+    
+    	Couleurs aléatoire pour l'effet Pinterest
+    
+     -->
+
+    <color name="rando_color_0">#648793</color>
+	<color name="rando_color_1">#1687c7</color>
+	<color name="rando_color_2">#c6e4d7</color>
+	<color name="rando_color_3">#3b49da</color>
+	<color name="rando_color_4">#d9a179</color>
+	<color name="rando_color_5">#8a4d21</color>
+	<color name="rando_color_6">#5eb4d4</color>
+	<color name="rando_color_7">#e95d41</color>
+	<color name="rando_color_8">#c761cf</color>
+	<color name="rando_color_9">#1bbd88</color>
+	<color name="rando_color_10">#86839a</color>
+	<color name="rando_color_11">#f87a8a</color>
+	<color name="rando_color_12">#584637</color>
+	<color name="rando_color_13">#f33b73</color>
+	<color name="rando_color_14">#9626b5</color>
+	<color name="rando_color_15">#2a5957</color>
+	<color name="rando_color_16">#b54823</color>
+	<color name="rando_color_17">#7d17f9</color>
+	<color name="rando_color_18">#cf9542</color>
+	<color name="rando_color_19">#3c4107</color>
+	<color name="rando_color_20">#4b33e2</color>
+	<color name="rando_color_21">#cf6bd1</color>
+	<color name="rando_color_22">#a3913a</color>
+	<color name="rando_color_23">#cb461d</color>
+	<color name="rando_color_24">#19edee</color>
+	<color name="rando_color_25">#e56dd1</color>
+	<color name="rando_color_26">#827716</color>
+	<color name="rando_color_27">#534c4d</color>
+	<color name="rando_color_28">#5af2d0</color>
+	<color name="rando_color_29">#bfeada</color>
+	<color name="rando_color_30">#60a267</color>
+	<color name="rando_color_31">#7084d3</color>
+	<color name="rando_color_32">#a27336</color>
+	<color name="rando_color_33">#54ea18</color>
+	<color name="rando_color_34">#d892f4</color>
+	<color name="rando_color_35">#aa6408</color>
+	<color name="rando_color_36">#250805</color>
+	<color name="rando_color_37">#9603a9</color>
+	<color name="rando_color_38">#bf1544</color>
+	<color name="rando_color_39">#1b4781</color>
+	<color name="rando_color_40">#52e063</color>
+	<color name="rando_color_41">#bb61b1</color>
+	<color name="rando_color_42">#eb8918</color>
+	<color name="rando_color_43">#4952a7</color>
+	<color name="rando_color_44">#7915d1</color>
+	<color name="rando_color_45">#d1b525</color>
+	<color name="rando_color_46">#1a47e4</color>
+	<color name="rando_color_47">#c69641</color>
+	<color name="rando_color_48">#2a7b66</color>
+	<color name="rando_color_49">#edb64f</color>
+	<color name="rando_color_50">#be56fd</color>
+	<color name="rando_color_51">#ae8a79</color>
+	<color name="rando_color_52">#99a220</color>
+	<color name="rando_color_53">#855611</color>
+	<color name="rando_color_54">#cafb45</color>
+	<color name="rando_color_55">#7f8005</color>
+	<color name="rando_color_56">#7ae33a</color>
+	<color name="rando_color_57">#65ecbd</color>
+	<color name="rando_color_58">#cae845</color>
+	<color name="rando_color_59">#76dbd5</color>
+	<color name="rando_color_60">#53800c</color>
+	<color name="rando_color_61">#9122e9</color>
+	<color name="rando_color_62">#72f0a9</color>
+	<color name="rando_color_63">#39e5e9</color>
+	<color name="rando_color_64">#2f1746</color>
+	<color name="rando_color_65">#7f4552</color>
+	<color name="rando_color_66">#6f9ae7</color>
+	<color name="rando_color_67">#8acd09</color>
+	<color name="rando_color_68">#1dcaa8</color>
+	<color name="rando_color_69">#434ddc</color>
+	<color name="rando_color_70">#617a6c</color>
+	<color name="rando_color_71">#520303</color>
+	<color name="rando_color_72">#89a4ce</color>
+	<color name="rando_color_73">#3e4be2</color>
+	<color name="rando_color_74">#278292</color>
+	<color name="rando_color_75">#5f662b</color>
+	<color name="rando_color_76">#f72eaf</color>
+	<color name="rando_color_77">#f46d02</color>
+	<color name="rando_color_78">#23a61a</color>
+	<color name="rando_color_79">#177ac3</color>
+	<color name="rando_color_80">#d7baef</color>
+	<color name="rando_color_81">#0baa43</color>
+	<color name="rando_color_82">#848a2b</color>
+	<color name="rando_color_83">#86a968</color>
+	<color name="rando_color_84">#cb03e8</color>
+	<color name="rando_color_85">#48548b</color>
+	<color name="rando_color_86">#51dde1</color>
+	<color name="rando_color_87">#729ff6</color>
+	<color name="rando_color_88">#ed2edb</color>
+	<color name="rando_color_89">#b74387</color>
+	<color name="rando_color_90">#6b93b4</color>
+	<color name="rando_color_91">#d6c0e0</color>
+	<color name="rando_color_92">#0d5079</color>
+	<color name="rando_color_93">#1fc949</color>
+	<color name="rando_color_94">#e416ac</color>
+	<color name="rando_color_95">#3aed89</color>
+	<color name="rando_color_96">#707f9a</color>
+	<color name="rando_color_97">#219f11</color>
+	<color name="rando_color_98">#27ed07</color>
+	<color name="rando_color_99">#e51520</color>
+	<color name="rando_color_100">#69aab6</color>
+	<color name="rando_color_101">#d19504</color>
+	<color name="rando_color_102">#ebaf47</color>
+	<color name="rando_color_103">#6d2559</color>
+	<color name="rando_color_104">#e0f865</color>
+	<color name="rando_color_105">#07149e</color>
+	<color name="rando_color_106">#83f667</color>
+	<color name="rando_color_107">#c80ca3</color>
+	<color name="rando_color_108">#32b658</color>
+	<color name="rando_color_109">#af2d03</color>
+	<color name="rando_color_110">#840329</color>
+	<color name="rando_color_111">#1ac299</color>
+	<color name="rando_color_112">#50e673</color>
+	<color name="rando_color_113">#afe53b</color>
+	<color name="rando_color_114">#5d9dbb</color>
+	<color name="rando_color_115">#9f2e0a</color>
+	<color name="rando_color_116">#955cbc</color>
+	<color name="rando_color_117">#fe4c84</color>
+	<color name="rando_color_118">#e959e5</color>
+	<color name="rando_color_119">#c15e07</color>
+	<color name="rando_color_120">#e55060</color>
+	<color name="rando_color_121">#680c9a</color>
+	<color name="rando_color_122">#3ea1f4</color>
+	<color name="rando_color_123">#118680</color>
+	<color name="rando_color_124">#d46d41</color>
+	<color name="rando_color_125">#0d46b5</color>
+	<color name="rando_color_126">#6f4c13</color>
+	<color name="rando_color_127">#7e583f</color>
+	<color name="rando_color_128">#bc75fb</color>
+	<color name="rando_color_129">#452047</color>
+	<color name="rando_color_130">#0c6e1a</color>
+	<color name="rando_color_131">#eed5ae</color>
+	<color name="rando_color_132">#f564ce</color>
+	<color name="rando_color_133">#d2d663</color>
+	<color name="rando_color_134">#5db1fe</color>
+	<color name="rando_color_135">#6e2141</color>
+	<color name="rando_color_136">#7b84bc</color>
+	<color name="rando_color_137">#4e5307</color>
+	<color name="rando_color_138">#82d140</color>
+	<color name="rando_color_139">#184473</color>
+	<color name="rando_color_140">#2d6fcf</color>
+	<color name="rando_color_141">#bf4371</color>
+	<color name="rando_color_142">#5dfaed</color>
+	<color name="rando_color_143">#119c3b</color>
+	<color name="rando_color_144">#8a0c71</color>
+	<color name="rando_color_145">#92d94e</color>
+	<color name="rando_color_146">#b01a32</color>
+	<color name="rando_color_147">#2e0f5c</color>
+	<color name="rando_color_148">#e1f732</color>
+	<color name="rando_color_149">#f550a9</color>
+	<color name="rando_color_150">#850e51</color>
+	<color name="rando_color_151">#0ae17b</color>
+	<color name="rando_color_152">#44bdda</color>
+	<color name="rando_color_153">#9fab1f</color>
+	<color name="rando_color_154">#76a22b</color>
+	<color name="rando_color_155">#e9ceab</color>
+	<color name="rando_color_156">#a2aeea</color>
+	<color name="rando_color_157">#c77b7c</color>
+	<color name="rando_color_158">#2cae3d</color>
+	<color name="rando_color_159">#fd1d1b</color>
+	<color name="rando_color_160">#aa29f8</color>
+	<color name="rando_color_161">#d1f191</color>
+	<color name="rando_color_162">#bb81a6</color>
+	<color name="rando_color_163">#fa2f71</color>
+	<color name="rando_color_164">#da8d02</color>
+	<color name="rando_color_165">#bd6243</color>
+	<color name="rando_color_166">#e8c7af</color>
+	<color name="rando_color_167">#a4c92e</color>
+	<color name="rando_color_168">#297eb8</color>
+	<color name="rando_color_169">#51ee94</color>
+	<color name="rando_color_170">#8239c1</color>
+	<color name="rando_color_171">#0c9a27</color>
+	<color name="rando_color_172">#23e022</color>
+	<color name="rando_color_173">#56f683</color>
+	<color name="rando_color_174">#7b136e</color>
+	<color name="rando_color_175">#0b2c64</color>
+	<color name="rando_color_176">#351511</color>
+	<color name="rando_color_177">#28076a</color>
+	<color name="rando_color_178">#923dc2</color>
+	<color name="rando_color_179">#8703fb</color>
+	<color name="rando_color_180">#f85e2b</color>
+	<color name="rando_color_181">#777408</color>
+	<color name="rando_color_182">#389c75</color>
+	<color name="rando_color_183">#c86085</color>
+	<color name="rando_color_184">#acbf64</color>
+	<color name="rando_color_185">#096d19</color>
+	<color name="rando_color_186">#bfa28a</color>
+	<color name="rando_color_187">#bb2bde</color>
+	<color name="rando_color_188">#e9a045</color>
+	<color name="rando_color_189">#129bcc</color>
+	<color name="rando_color_190">#d9c8e6</color>
+	<color name="rando_color_191">#7b3e2d</color>
+	<color name="rando_color_192">#f52596</color>
+	<color name="rando_color_193">#f27bdd</color>
+	<color name="rando_color_194">#b52591</color>
+	<color name="rando_color_195">#2c4051</color>
+	<color name="rando_color_196">#1692a7</color>
+	<color name="rando_color_197">#5913e0</color>
+	<color name="rando_color_198">#2d9905</color>
+	<color name="rando_color_199">#6085ca</color>
+	<color name="rando_color_200">#803e78</color>
+	<color name="rando_color_201">#9038c3</color>
+	<color name="rando_color_202">#0585c8</color>
+	<color name="rando_color_203">#a6a3b9</color>
+	<color name="rando_color_204">#181370</color>
+	<color name="rando_color_205">#0729ed</color>
+	<color name="rando_color_206">#b058e4</color>
+	<color name="rando_color_207">#ca3079</color>
+	<color name="rando_color_208">#c04c8a</color>
+	<color name="rando_color_209">#89526b</color>
+	<color name="rando_color_210">#5f805e</color>
+	<color name="rando_color_211">#5dea4a</color>
+	<color name="rando_color_212">#f07edf</color>
+	<color name="rando_color_213">#0ff1c7</color>
+	<color name="rando_color_214">#dc9a61</color>
+	<color name="rando_color_215">#7837fc</color>
+	<color name="rando_color_216">#9f0c8b</color>
+	<color name="rando_color_217">#02a4f0</color>
+	<color name="rando_color_218">#3d7828</color>
+	<color name="rando_color_219">#bed87b</color>
+	<color name="rando_color_220">#6f3981</color>
+	<color name="rando_color_221">#5ae4b4</color>
+	<color name="rando_color_222">#8bf653</color>
+	<color name="rando_color_223">#175945</color>
+	<color name="rando_color_224">#db91fa</color>
+	<color name="rando_color_225">#6cc401</color>
+	<color name="rando_color_226">#524d71</color>
+	<color name="rando_color_227">#112cf0</color>
+	<color name="rando_color_228">#cb2b2e</color>
+	<color name="rando_color_229">#a3ddf6</color>
+	<color name="rando_color_230">#ff0e57</color>
+	<color name="rando_color_231">#d17210</color>
+	<color name="rando_color_232">#256d15</color>
+	<color name="rando_color_233">#560364</color>
+	<color name="rando_color_234">#e94dc9</color>
+	<color name="rando_color_235">#b2686f</color>
+	<color name="rando_color_236">#82453d</color>
+	<color name="rando_color_237">#db3bd5</color>
+	<color name="rando_color_238">#d3dcbb</color>
+	<color name="rando_color_239">#fb5784</color>
+	<color name="rando_color_240">#76642f</color>
+	<color name="rando_color_241">#f3fb65</color>
+	<color name="rando_color_242">#580468</color>
+	<color name="rando_color_243">#4e439b</color>
+	<color name="rando_color_244">#fe7fdb</color>
+	<color name="rando_color_245">#679acc</color>
+	<color name="rando_color_246">#e0744f</color>
+	<color name="rando_color_247">#f08f24</color>
+	<color name="rando_color_248">#77f0ae</color>
+	<color name="rando_color_249">#456822</color>
+	<color name="rando_color_250">#5de884</color>
+	<color name="rando_color_251">#603ba7</color>
+	<color name="rando_color_252">#caab99</color>
+	<color name="rando_color_253">#962c2c</color>
+	<color name="rando_color_254">#abc30a</color>
+	<color name="rando_color_255">#4f09ed</color>
+	<color name="rando_color_256">#4d2ce7</color>
+	<color name="rando_color_257">#38c825</color>
+	<color name="rando_color_258">#613d58</color>
+	<color name="rando_color_259">#7348b3</color>
+	<color name="rando_color_260">#ab105b</color>
+	<color name="rando_color_261">#f61891</color>
+	<color name="rando_color_262">#e32c0b</color>
+	<color name="rando_color_263">#854f0e</color>
+	<color name="rando_color_264">#12f0f0</color>
+	<color name="rando_color_265">#956b3c</color>
+	<color name="rando_color_266">#7bfbc7</color>
+	<color name="rando_color_267">#e685f6</color>
+	<color name="rando_color_268">#4116ac</color>
+	<color name="rando_color_269">#0f774a</color>
+	<color name="rando_color_270">#77d4a5</color>
+	<color name="rando_color_271">#4f6356</color>
+	<color name="rando_color_272">#797f94</color>
+	<color name="rando_color_273">#978a26</color>
+	<color name="rando_color_274">#bf7896</color>
+	<color name="rando_color_275">#b22416</color>
+	<color name="rando_color_276">#672752</color>
+	<color name="rando_color_277">#cf806f</color>
+	<color name="rando_color_278">#db275e</color>
+	<color name="rando_color_279">#1c8e7c</color>
+	<color name="rando_color_280">#abd9a7</color>
+	<color name="rando_color_281">#d4aaa9</color>
+	<color name="rando_color_282">#49823b</color>
+	<color name="rando_color_283">#592d55</color>
+	<color name="rando_color_284">#a6b8e9</color>
+	<color name="rando_color_285">#7a22ca</color>
+	<color name="rando_color_286">#3d5626</color>
+	<color name="rando_color_287">#05c15b</color>
+	<color name="rando_color_288">#2474c9</color>
+	<color name="rando_color_289">#0f8f0f</color>
+	<color name="rando_color_290">#3dfc28</color>
+	<color name="rando_color_291">#823eb5</color>
+	<color name="rando_color_292">#95f23f</color>
+	<color name="rando_color_293">#bbaa7d</color>
+	<color name="rando_color_294">#dfb3c6</color>
+	<color name="rando_color_295">#8da724</color>
+	<color name="rando_color_296">#460167</color>
+	<color name="rando_color_297">#137677</color>
+	<color name="rando_color_298">#ce491b</color>
+	<color name="rando_color_299">#0a4b63</color>
+	<color name="rando_color_300">#6a7543</color>
+	<color name="rando_color_301">#d6f32b</color>
+	<color name="rando_color_302">#cc9917</color>
+	<color name="rando_color_303">#bfc9c4</color>
+	<color name="rando_color_304">#6f9484</color>
+	<color name="rando_color_305">#1324be</color>
+	<color name="rando_color_306">#8e6ca0</color>
+	<color name="rando_color_307">#a29e3b</color>
+	<color name="rando_color_308">#0f2984</color>
+	<color name="rando_color_309">#adc3cd</color>
+	<color name="rando_color_310">#013c79</color>
+	<color name="rando_color_311">#8d179a</color>
+	<color name="rando_color_312">#d43841</color>
+	<color name="rando_color_313">#271adb</color>
+	<color name="rando_color_314">#1b7611</color>
+	<color name="rando_color_315">#59c02e</color>
+	<color name="rando_color_316">#6b9ec3</color>
+	<color name="rando_color_317">#87b770</color>
+	<color name="rando_color_318">#fcef44</color>
+	<color name="rando_color_319">#ee008e</color>
+	<color name="rando_color_320">#410409</color>
+	<color name="rando_color_321">#f5fa38</color>
+	<color name="rando_color_322">#e30cdb</color>
+	<color name="rando_color_323">#cad139</color>
+	<color name="rando_color_324">#87910a</color>
+	<color name="rando_color_325">#8f40c0</color>
+	<color name="rando_color_326">#e6e780</color>
+	<color name="rando_color_327">#32230e</color>
+	<color name="rando_color_328">#737836</color>
+	<color name="rando_color_329">#fdcdbe</color>
+	<color name="rando_color_330">#724e33</color>
+	<color name="rando_color_331">#1dc932</color>
+	<color name="rando_color_332">#4b36a9</color>
+	<color name="rando_color_333">#7f7c64</color>
+	<color name="rando_color_334">#3e878d</color>
+	<color name="rando_color_335">#f93531</color>
+	<color name="rando_color_336">#367c5f</color>
+	<color name="rando_color_337">#9239cb</color>
+	<color name="rando_color_338">#8ecbed</color>
+	<color name="rando_color_339">#530cce</color>
+	<color name="rando_color_340">#3423d8</color>
+	<color name="rando_color_341">#c7e3b6</color>
+	<color name="rando_color_342">#0c17b2</color>
+	<color name="rando_color_343">#3cd9d4</color>
+	<color name="rando_color_344">#83577a</color>
+	<color name="rando_color_345">#3e2d0c</color>
+	<color name="rando_color_346">#54a4df</color>
+	<color name="rando_color_347">#e67bdb</color>
+	<color name="rando_color_348">#d35be7</color>
+	<color name="rando_color_349">#ea7181</color>
+	<color name="rando_color_350">#1e5a57</color>
+	<color name="rando_color_351">#6822fa</color>
+	<color name="rando_color_352">#0747d4</color>
+	<color name="rando_color_353">#d92424</color>
+	<color name="rando_color_354">#6c2f0e</color>
+	<color name="rando_color_355">#101b16</color>
+	<color name="rando_color_356">#123398</color>
+	<color name="rando_color_357">#bfbf2b</color>
+	<color name="rando_color_358">#4b652b</color>
+	<color name="rando_color_359">#2689de</color>
+	<color name="rando_color_360">#e4845a</color>
+	<color name="rando_color_361">#7d6f5e</color>
+	<color name="rando_color_362">#18cfe6</color>
+	<color name="rando_color_363">#aaef57</color>
+	<color name="rando_color_364">#68c3da</color>
+	<color name="rando_color_365">#73b603</color>
+	<color name="rando_color_366">#6799a6</color>
+	<color name="rando_color_367">#af788b</color>
+	<color name="rando_color_368">#85babf</color>
+	<color name="rando_color_369">#3cb4be</color>
+	<color name="rando_color_370">#65f88c</color>
+	<color name="rando_color_371">#18de21</color>
+	<color name="rando_color_372">#6af3bb</color>
+	<color name="rando_color_373">#e71716</color>
+	<color name="rando_color_374">#dfbaee</color>
+	<color name="rando_color_375">#096d72</color>
+	<color name="rando_color_376">#2c4420</color>
+	<color name="rando_color_377">#bfa689</color>
+	<color name="rando_color_378">#095477</color>
+	<color name="rando_color_379">#52ba60</color>
+	<color name="rando_color_380">#f7c7f0</color>
+	<color name="rando_color_381">#58fb90</color>
+	<color name="rando_color_382">#8fb136</color>
+	<color name="rando_color_383">#ff8bb1</color>
+	<color name="rando_color_384">#901a3e</color>
+	<color name="rando_color_385">#c6a57a</color>
+	<color name="rando_color_386">#7a611b</color>
+	<color name="rando_color_387">#59b76a</color>
+	<color name="rando_color_388">#6886e6</color>
+	<color name="rando_color_389">#9b194f</color>
+	<color name="rando_color_390">#7a371a</color>
+	<color name="rando_color_391">#c16dbe</color>
+	<color name="rando_color_392">#941451</color>
+	<color name="rando_color_393">#326d63</color>
+	<color name="rando_color_394">#cd872e</color>
+	<color name="rando_color_395">#1b312a</color>
+	<color name="rando_color_396">#43bf7e</color>
+	<color name="rando_color_397">#87e742</color>
+	<color name="rando_color_398">#195b59</color>
+	<color name="rando_color_399">#7b647a</color>
+	
+</resources>

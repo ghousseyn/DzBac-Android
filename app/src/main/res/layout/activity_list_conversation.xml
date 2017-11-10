@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/app_bar"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_container"
+        android:layout_below="@id/tool_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <it.gmariotti.cardslib.library.view.CardListView
+            android:id="@+id/myList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/progressBar_list_conversation"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:indeterminate="true"
+        app:cpb_color="#FFee44"
+        app:cpb_colors="@array/gplus_colors"
+        app:cpb_rotation_speed="1.0"
+        app:cpb_sweep_speed="1.0"
+        app:cpb_stroke_width="4dp"
+        app:cpb_min_sweep_angle="10"
+        app:cpb_max_sweep_angle="300"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+ <TextView
+        android:id="@+id/aucune_conversation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/aucune_conversation" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/my_undobar"
+        style="@style/list_card_UndoBar"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/my_undobar_message"
+            style="@style/list_card_UndoBarMessage"/>
+
+        <Button
+            android:id="@+id/my_undobar_button"
+            style="@style/list_card_UndoBarButton"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

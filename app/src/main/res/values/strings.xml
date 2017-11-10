@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">DzBac</string>
+	<string name="host">178.62.57.167</string>
+	<string name="port">3000</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">768513439884976</string>
+
+
+
+	<string name="new_comments">%1$d nouveau(x) commentaire(s)</string>
+
+	<string name="rester_appuyer">Rester appuyer sur le microphone pour enregistrer !</string>
+
+	<string name="message_vocal">Voulez-vous envoyez le message vocal ?</string>
+	<string name="voice_msg_input_hint_speaking">Parlez ...</string>
+	<string name="voice_msg_input_hint_time_limited_formatter" formatted="false">%d s left</string>
+
+	<string name="favoris">Favoris</string>
+
+	<string name="photo_preview_video">Ajoute une photo de présentation pour ta vidéo</string>
+
+	<string name="mes_abonnements">Mes abonnements</string>
+
+	<string name="recorder_state_recording">Enregistrement&#8230;</string>
+	<string name="recorder_state_min_recorded">Vidéo minimale enregistrée.</string>
+	<string name="recorder_state_complete">Enregistrement vidéo complète.</string>
+	<string name="recorder_state_min_video_crossed">Enregistrement&#8230;</string>
+	<!--<string name="recorder_state_min_video_crossed">L\'enregistrement minimum atteint&#8230;</string>-->
+	<string name="recorder_state_press_to_record">Appuyez pour enregistrer&#8230;</string>
+
+	<string name="next">Suivant</string>
+	<string name="finish">Terminer</string>
+	<string name="confirm">Confirmer</string>
+	<string name="processing">Traitement en cours&#8230;</string>
+	<string name="alert">Alert</string>
+	<string name="discard_video_msg">Voulez-vous annuler l\'enregistrement?</string>
+	<string name="video_saved_path">Your video is saved at</string>
+
+	<string name="action_send">Envoyer</string>
+	<string name="prompt_message">Message</string>
+
+
+	<string name="video_uploaded">Votre vidéo a été upload !</string>
+	<string name="error_video_uploaded">Erreur ! Votre vidéo n\'a été upload !</string>
+
+
+	<string name="video">Video</string>
+
+	<string name="audio">Audio</string>
+
+	<string name="text">Text</string>
+
+	<string name="logging">Logging</string>
+
+	<string name="logging_normal">Normal</string>
+
+	<string name="logging_verbose">Verbose</string>
+
+	<string name="retry">Retry</string>
+
+	<string name="error_connect">Impossible de se connecter</string>
+	<string name="recreation">Récréation</string>
+
+	<string name="connexion_en_cours">Connexion en cours&#8230;</string>
+	<string name="deconnexion_en_cours">Déconnexion&#8230;</string>
+
+	<string name="sms_verification_solution">Pour résoudre le problème, c\'est très facile, suivez les étapes suivantes :\n
+											- Inscrivez vous sur https://www.digits.com/signin et confirmer votre compte.\n
+											- Puis retourner sur DzBac et réessayez la vérification.\n\n
+											Pour toute question, contactez nous sur team.dzbac@gmail.com</string>
+
+
+	<string name="filtre_post">Recherche au niveau des posts</string>
+	<string name="filtre_user">Recherche au niveau des utilisateurs</string>
+	<string name="sms_verification_error">La vérification SMS ne fonctionne pas ?</string>
+
+	<!-- messages -->
+	<string name="message_welcome">Bienvenue dans la cour de récréation de DzBac</string>
+	<plurals name="message_participants">
+		<item quantity="one">Il y a %d participant</item>
+		<item quantity="other">Il y a %d participants</item>
+	</plurals>
+	<string name="message_user_joined">%s a rejoint la cour</string>
+	<string name="message_user_left">%s a quitté(e) la cour</string>
+	<string name="user_action_typing">est entrain d\'écrire&#8230;</string>
+
+
+	<string name="key_backup_google">AEdPqrEAAAAIox2zzp7IwAiFQjYhz32lj_lfzVC16fD0sqXnJw</string>
+
+	<!--<string name="ad_unit_native">d0012e5eb66744f19bd05091d604e77c</string>-->
+	<!--<string name="ad_unit_native">d0012e5eb66744f19bd05091d604e77c</string>-->
+	<string name="ad_unit_native">8eeee9cbf68b4cc4912d2150d4f2a683</string>
+
+
+	<string name="banner_ad_unit_id_show_post">ca-app-pub-3431238505773199/3549571866</string>
+	<string name="banner_ad_unit_id_show_image">ca-app-pub-3431238505773199/9794566260</string>
+	<string name="intersial_ad_unit_id_show_image">ca-app-pub-3431238505773199/9199152663</string>
+
+    <string name="mcam_portrait_warning">Il est recommandé d\'enregistrer en mode paysage. Continuer en portrait ?</string>
+
+	<string name="mes_amis">Mes amis</string>
+
+	<string name="no_contact">Pas de contact utilisant DzBac pour le moment, invite tes amis ! :D</string>
+
+	<string name="sms_verification_1"><![CDATA[Dans le but de lutter contre les spammeurs, nous vérifions que vous n\'êtes pas un <b>robot</b>.<br/>
+									Cela permettra aussi à vos amis qui vous ont enregistré dans leur carnet d\'adresses de vous trouver sur DzBac]]></string>
+	<string name="verification">Vérification</string>
+
+	<string name="filiere_selectionne">Filière(s) sélectionnée(s) %s</string>
+	<string name="all_filiere">Toutes les filières</string>
+	<string name="filire">Filière(s)</string>
+	<string name="select_filiere">Sélectionne les filières</string>
+	<string name="les_posts">Posts</string>
+
+	<string name="filiere_pref_summary">Choisissez les posts des filières que vous voulez voir</string>
+
+
+	<string name="native_main_image">native_main_image</string>
+	<string name="native_privacy_information_icon_image">Privacy Information Icon image</string>
+      <!-- 
+    	############################################################### 
+    	Title Activity & fragments
+    	############################################################### 
+     -->
+
+	<string name="audio_info">Sélectionne un fichier audio</string>
+	<string name="error_inconnu_google">Une erreur s\'est produite, réessayez avec l\'inscription par email</string>
+
+	<string name="tout_telecharger">Télécharger l\'album</string>
+	<string name="album">Album</string>
+	<string name="telechargement_album_termine">Téléchargement de l\'album terminé, les images sont dans le dossier DzBac</string>
+	<string name="telechargement_album_en_cours">Téléchargement de l\'album en cours&#8230;</string>
+
+	<string name="top_post">Top Post</string>
+
+	<!--<string name="pret_a_obtenir">Prêt à décrocher le BAC avec mention excellent ? rejoins notre famille !</string
+    <string name="pret_a_obtenir">Prêt à pleurer de joie le jour des résultats du BAC ? rejoins notre famille !</string>>-->
+
+	<string name="error_premium">Pour continuer à utiliser DzBac, vous devez être un membre premium</string>
+	<string name="pret_a_obtenir">Tu veux aller en médecine ? DzBac va t\'aider à réaliser ton rêve !</string>
+	<string name="fichier_upload">Fichier upload avec succès</string>
+	<string name="audio_upload">Audio upload avec succès</string>
+
+
+	<string name="dzbac_reglement_info">En postant, tu admets avoir lu le réglement de DzBac</string>
+
+	<string name="error_wifi">Une connexion WIFI est nécessaire pour faire un appel</string>
+	<string name="error_version_ancienne">Votre version d\'Android est trop ancienne pour pouvoir lire les audios/vidéos</string>
+	<string name="wifi">WIFI</string>
+
+	<string name="premium_0">Vous n\'avez aucun abonnement premium</string>
+	<string name="premium_1">Vous avez un abonnement premium d\'un mois</string>
+	<string name="premium_2">Vous avez un abonnement premium de 6 mois</string>
+	<string name="premium_3">Vous avez un abonnement premium d\'un ans</string>
+	<string name="premium_4">Vous avez un abonnement premium d\'une semaine</string>
+	<string name="premium_5">Vous avez un abonnement premium de trois mois</string>
+	<string name="premium_6">Vous avez un abonnement premium spécial de trois mois</string>
+
+	<string name="camera_hide">Votre interlocuteur ne peut plus vous voir</string>
+	<string name="camera_enabled">Votre interlocteur peut à nouveau vous voir</string>
+
+
+	<string name="compte_prenium">Compte Premium</string>
+	<string name="error_prenimum">Cette fonctionnalité est adressée aux utilisateurs premium de DzBac, aller dans \'Compte Premium\' pour mieux comprendre</string>
+	<string name="error_prenimum_message">L\'envoie des messages est réservé aux utilisateurs premium de DzBac, aller dans \'Compte Premium\' pour mieux comprendre</string>
+
+
+	<string name="filiere">Filière(s)</string>
+	<string name="followers">Followers</string>
+	<string name="call_video">Appel vidéo</string>
+    <string name="save_image">Sauvgarder l\'image</string>
+
+	<string name="appel">Appels</string>
+
+	<string name="multiple_account">Erreur !</string>
+	<string name="error_multile_account">Oups ! DzBac a détecté l\'utilisation du même compte sur plusieurs mobiles ou tablettes !</string>
+
+	<string name="trier">Trier par</string>
+
+	<string name="date_inscription">Date d\'inscription</string>
+	<string name="lancer_recherche">Lancer la recherche</string>
+
+	<string name="patienter">Patientez&#8230;</string>
+
+	<string name="version_outdated">Cette version de l\'application s\'est expirée, veuillez faire la mise à jour</string>
+
+	<string name="block_user">Bloquer l\'utilisateur pour ne plus vous contacter</string>
+
+	<string name="bannir_utilisateur">Bannir l\'utilisateur</string>
+
+	<string name="ban_user">Vous avez été banni de DzBac pour non respect du règlement, au revoir !</string>
+	<string name="ban_user_details">Vous avez été banni de DzBac pour non respect du règlement, pour plus d\'info contactez team.dzbac@gmail.com</string>
+	<string name="bannissment">Bannissement</string>
+
+	<string name="classement">Classement</string>
+
+	<string name="challenge">Challenge</string>
+
+	<string name="permission_camera">DzBac a besoin de cette permission, pour que vous puissiez enregistrer des vidéos</string>
+	<string name="permission_file">DzBac a besoin de cette permission, pour que vous puissiez uploader des fichiers</string>
+	<string name="permission_photo">DzBac a besoin de cette permission, pour que vous puissiez charger des photos</string>
+	<string name="permission_photo_enregistrement">DzBac a besoin de cette permission, pour que vous puissiez télécharger des photos</string>
+
+    <string name="supprimer_fichier">Voulez vous supprimer le fichier ?</string>
+    <string name="alerte">Alerte</string>
+
+    <string name="commentaires">Commentaires</string>
+    <string name="posts_publie">Posts publiés</string>
+
+    <string name="plus_menu">Plus menu</string>
+
+	<string name="banissement">Bannissement</string>
+	<string name="banissement_warn">Être vous sûr(e) de bannir cet utilisateur ?</string>
+	<string name="bloquer">Bloquer</string>
+	<string name="bloquer_warn">Cet utilisateur ne pourra plus vous contacter, êtes-vous sûr(e) de le bloquer ?</string>
+
+    <string name="noter_application">Notez l\'application</string>
+
+	<string name="reputation">Popularité</string>
+	<string name="following">Followers</string>
+	<string name="abonnés">abonné(s)</string>
+	<string name="points">point(s)</string>
+
+	<string name="contribution">Nos offres</string>
+	<string name="aucune">Aucune</string>
+	<string name="petit_malin">Petit malin</string>
+	<string name="sauveteur">Sauveteur</string>
+	<string name="hero">Héro</string>
+	<string name="legende">Légende</string>
+
+	<string name="inscrit">Inscrit</string>
+	<string name="dernire_activite">Dernière activité</string>
+	<string name="actif">Actif %1$s</string>
+
+	<string name="error_likes">On ne peut pas aimer ses propres posts</string>
+
+    <string name="partager_application">Inviter mes amis</string>
+
+    <string name="save_image_load">Sauvegarde de l\'image en cours...</string> 
+    
+    <string name="save_image_load_fail">Image non sauvegardée, réessayez !</string>
+
+	<string name="sabonner">S\'abonner</string>
+	<string name="sedésabonner">Se désabonner</string>
+    
+    <string name="save_image_load_success">Image sauvegardée dans la galerie !</string>
+    
+    <string name="titre_profile">Profil de</string>
+    <string name="titre_vos_conversations">Tes conversations</string>
+    <string name="titre_vos_favoris">Vos favoris</string>
+    <string name="titre_vos_items">Vos postes</string>
+    <string name="titre_vos_notifications">Tes notifications</string>
+    <string name="titre_edition_profile">Édition de votre profil</string>
+    <string name="titre_home"></string>
+    <string name="titre_commentaires">Commentaire(s)</string>
+    <string name="inviter">Inviter mes amis</string>
+
+    <string name="dzbac_boost">DzBac Boost</string>
+    
+    <!-- 
+    	############################################################### 
+    	Content Description
+    	############################################################### 
+     -->
+     
+     <string name="content_logo">Logo Squalala</string>
+     
+     <string name="verification_ville">Vérification en cours&#8230;</string>
+     
+     
+     <string name="mes_posts">Mes posts</string>
+     <string name="mon_profil">Mon profil</string>
+     <string name="filtre">Filtre de recherche</string>
+
+    <string name="en_savoir_plus">En savoir plus</string>
+
+	<string name="echec_call">Echec lors de la connexion&#8230;</string>
+
+	<string name="echec_call_caller">Ton interlocuteur doit être occupé ou hors-ligne</string>
+     
+     
+     <!-- 
+    	############################################################### 
+    	Buttons
+    	############################################################### 
+     -->
+     
+     <string name="btn_inscription">S\'INSCRIRE</string>
+     <string name="btn_connexion">SE CONNECTER</string>
+     <string name="btn_me_connecter">ME CONNECTER</string>
+     <string name="btn_depose_item">J\'ai terminé </string>
+
+	<string name="chargement_">Chargement&#8230;</string>
+     
+     <!-- 
+    	############################################################### 
+    	Dialogs
+    	############################################################### 
+     -->
+
+	 <string name="dialog_inscription">S\'inscrire par :</string>
+	 <string name="dialog_connection">Se connecter avec :</string>
+	 <string name="dialog_chargement">Chargement en cours&#8230;</string>
+	 <string name="dialog_envoyer_message">Lui envoyer un message&#8230;</string>
+	 <string name="dialog_envoyer_finale">Envoyer</string>
+	 <string name="dialog_chargment_chemin">Chargement du chemin en cours&#8230;</string>
+	 <string name="dialog_commenter">Commentez&#8230;</string>
+	 <string name="dialog_ajouter_item">Ajouter&#8230;</string>
+	 <string name="dialog_espace">Mon espace</string>
+	 <string name="dialog_profile">Mon profil</string>
+
+	 
+	 <!-- 
+    	############################################################### 
+    	Alerts
+    	############################################################### 
+     -->
+	 <string name="alert_epingler_post">Mettre en avant ton post sur DzBac ?</string>
+	<string name="oups">Oups !</string>
+	<string name="alert_legend_message_contrib_error">Il faut avoir un compte premium pour pouvoir télécharger en illimité</string>
+	<string name="alert_message_contrib_error">Il faut avoir un compte premium pour pouvoir envoyer des messages</string>
+	<string name="alert_audio_contrib_error">Il faut avoir un compte premium pour télécharger les audios</string>
+	<string name="alert_epingler_post_error">L\'option de mise en avant des posts est réservé aux utilisateurs premium de type Légende</string>
+	 <string name="alert_click_photo_add_item">Que voulez-vous faire de la photo ?</string>
+    <string name="alert_click_deconnexion">Voulez vous vraiment vous déconnecter ?</string>
+	 <string name="alert_action_supp_photo_add_item">Supprimer</string>
+	 <string name="alert_action_garder_photo_add_item">Garder</string>
+    <string name="alert_action_voir_photo_add_item">Voir</string>
+	 <string name="alert_action_modifier_photo_add_item">Modifier</string>
+	 <string name="alert_titre_astuce">Astuce(s)</string>
+	 <string name="alert_astuce_message">Pour définir une image de présentation, restez appuyé dessus</string>
+	<string name="alert_astuce_conversation">Pour supprimer une conversation, faites glisser la conversation de gauche à droite ou l\'inverse</string>
+	 <string name="alert_titre_info">Alerte</string>
+     <string name="alert_text_note_app">Aimes-tu DzBac ?</string>
+     <string name="plus_tard">Plus tard</string>
+     <string name="alert_text_note_app_2">Cool ! veux-tu noter l\'application ?</string>
+	 <string name="alert_titre_action_commentaire">Action commentaire</string>
+	 <string name="alert_delete_item_message">Êtes-vous sûr de vouloir supprimer ce poste ?</string>
+	 <string name="alert_marquer_notification_lu">Marquer toutes les notifications comme lu ?</string>
+	 <string name="alert_info_upload_non_fini">L\'upload n\'a pas terminé, attendez la disparition de l\'animation pour faire des opérations sur les images</string>
+	 <!-- 
+    	############################################################### 
+    	Autres
+    	############################################################### 
+     -->
+     
+     <string name="facebook">Facebook</string>
+	<string name="signalement_confirmation">Es-tu sûre de signaler ce post ?</string>
+	<string name="error_loading">DzBac n\'a pas pu récupérer le post, réessayez plus tard</string>
+    <string name="cool">Cool !</string>
+
+    <string name="specialite">Spécialitée</string>
+
+    <string name="note_dzbac">Veux-tu noter l\'application ?</string>
+     
+     <string name="recherche">Recherche</string>
+     <string name="proposition">Proposition</string>
+
+
+	<string name="signalements">Signalements</string>
+	<string name="supp_signalement">Supprimer le signalement ?</string>
+     
+     <string name="ne_plus_suivre">Ne plus suivre</string>
+     <string name="suivre">Suivre</string>
+	<string name="ne_plus_suivre_conversation">Tu ne recevras plus notifications de la conversation</string>
+	 <string name="suivre_conversation">Tu recevras des notifications de la conversation</string>
+     <string name="que_cherchez_vous">Mot clé</string>
+     <string name="localiser">Localisez !</string>
+	 <string name="email">E-mail</string>
+	 <string name="pseudo">Pseudo</string>
+	 <string name="mdp">Mot de passe</string>
+	<string name="mdp_forgot">Mot de passe oublié ?</string>
+	 <string name="inscription">M\'inscrire</string>
+	 <string name="mot_de_passe">Mot de passe</string>
+	 <string name="confirme_mdp">Confirmer le mot de passe</string>
+	 <string name="inscription_reussi">Inscription réussi</string>
+	 <string name="votre_mot_de_passe">Votre mot de passe</string>
+	 <string name="votre_email">Votre e-mail</string>
+	 <string name="type_annonce_demande">Demande</string>
+	 <string name="type_annonce_offre">Offre</string>
+	 <string name="no_data">Aucun item désolé.</string>
+	 <string name="remettre_filtre_default">Remettre le filtre par défaut</string>
+	 <string name="ok">OK</string>
+	 <string name="tout_categorie">Toutes les catégories</string>
+	 <string name="tout_element">Tous les éléments</string>
+	 <string name="google_plus_">Google+</string>
+	 
+	 <string name="matiere">Matière</string>
+	 <string name="type">Type</string>
+
+
+	 <string name="localisation_annonce">Localisation de l\'annonce</string>
+	 <string name="localisation_place">Localisation de l\'endroit</string>
+	 <string name="localisation_recuperation">Localisation de l\'objet</string>
+	 <string name="localisation_publication">Localisation de la publication</string>
+	 <string name="localisation_service">Localisation du service</string>
+	 
+	 <string name="search_hint">Tapez une adresse</string>
+	 <string name="quel_filtre">Quel type de filtre ?</string>
+	 <string name="search_settings">Rechercher un endroit</string>
+	 <string name="informations">Informations</string>
+	 <string name="coordonnees">Coordonnées</string>
+	 <string name="contact">Contact</string>
+	 <string name="voir_les_commentaires">Voir les commentaires</string>
+	 <string name="partager">Partager</string>
+	 <string name="signaler">Signaler</string>
+	 <string name="sur_djihti">Sur Squalala</string>
+	 <string name="regarde_cela_djihti">Regarde cela</string>
+	 <string name="action">Action&#8230;</string>
+	 <string name="vendre">Vendre ou demander</string>
+	 <string name="donner">Donner</string>
+	 <string name="propser_chercher_service">Proposer, chercher un service</string>
+	 <string name="ajouter_endroit">Ajouter un endroit</string>
+	 
+	 <string name="type_service">Type de service</string>
+
+    <string name="commenter_avec_images">Commenter avec des images</string>
+	 
+	 <string name="regarde_cela_sur_djihti">Regarde cela sur @Squalala_dz:</string>
+	 <string name="sujet_conversation">Sujet de la conversation</string>
+	 <string name="message_conversation">Ton message</string>
+	 <string name="motif_signalisation">Motif ?</string>
+	 <string name="exprimez_vous">Dis quelque chose de sympa&#8230;</string>
+	 <string name="aucun_commentaire">Aucun commentaire pour le moment</string>
+	 <string name="aucune_conversation">Aucune conversation pour le moment</string>
+	 <string name="aucune_notification">Aucune notification pour le moment</string>
+	 <string name="nom_et_prenom">Nom et prénom</string>
+	 <string name="localisation">Localisation</string>
+	 <string name="profession">Votre profession</string>
+	 <string name="site_web">Profil web</string>
+	 <string name="apropos">À propos</string>
+	 <string name="taper_sur_element">Touchez un élément pour le modifier</string>
+	 <string name="patientez">Patientez&#8230;</string>
+	 <string name="upload_avatar">L\'avatar a été upload avec succès</string>
+	 <string name="upload_image_fond">L\'image de fond a été upload avec succès</string>	
+	 
+     <string name="titre">Ton titre</string>
+    <string name="connexion">Connexion</string>
+    <string name="inscription_">Inscription</string>
+    <string name="bloquer_image">Bloquer l\'image</string>
+    <string name="debloquer_image">Débloquer l\'image</string>
+    <string name="quitter">Quitter</string>
+    <string name="filtre_saved">Filtre enregistré</string>
+     <string name="description">Exprime toi !</string>
+     
+     <string name="contact_email">Votre e-mail ( non obligatoire )</string>
+     <string name="image_selectione">Image séléctionnée</string>
+     <string name="bref_presentation">Bref présentation</string>
+
+
+    <string name="reseaux_sociaux">Réseaux sociaux</string>
+    <string name="sur_facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="google_plus">Google Plus</string>
+    <string name="google_play">Laissez un commentaire sur le Google Play</string>
+    <string name="contact_aide">Un bug ? vous voulez une nouvelle fonctionnalité ? ou un simple coucou ? 
+        n\'hésitez surtout pas à nous contacter !</string>
+        
+    <string name="reglages">Réglages</string>
+    <string name="Son">Son</string>
+    <string name="son_info">Son pour les notifications</string>
+
+	<string name="notification_info">Recevoir chaque jour une notification qui vous affiche le meilleur post de la journée</string>
+	<string name="follow_notification_info">Recevoir une notification à chaque fois qu\'un utilisateur s\'abonne à vous</string>
+	<string name="call_info">Recevoir des appels de la communauté DzBac</string>
+
+    
+    <string name="vibreur">Vibreur</string>
+    <string name="vibreur_info">Vibreur pour les notifications</string>
+    <string name="pref_notification">Notifications</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="connexion_reussi">Connexion réussi</string>
+
+	<string name="save_filtre">Sauvegarder le filtre</string>
+
+	<string name="sponsored">Sponsorisée</string>
+     <!--  
+     
+     
+     <string name="finish_annonce_depose">Annonce déposée</string>
+     <string name="finish_recuperation_depose">Récupération déposée</string>
+     <string name="finish_place_depose">Place déposée</string>
+     <string name="finish_publication_depose">Publication ajoutée </string>
+      -->
+     
+	 	 
+	 <!-- 
+    	############################################################### 
+    	Errors
+    	############################################################### 
+     -->
+
+	 <string name="error_fields_add_item">Vérifier les champs</string>
+	 <string name="error_pas_de_connection_internet">Une connexion internet est requise pour continuer</string>
+	 <string name="error_serveur">Le serveur n\'est pas disponible pour le moment</string>
+     <string name="error_file">Seul les fichiers pdf, doc, docx, txt, rar, zip sont permis</string>
+     <string name="error_file_too_large">Le fichier ne doit pas dépasser 10 Mo</string>
+     <string name="error_title_lenght">Au moins 8 caractères pour le titre</string>
+     <string name="error_description_lenght">Au moins 8 caractères pour le message</string>
+	 <string name="error_pseudo_empty">Vous n\'avez mis aucun pseudo</string>
+     <string name="error_password_empty">Vous n\'avez mis aucun mot de passe</string>
+     <string name="error_email_empty">Vous n\'avez mis aucune adresse e-mail</string>
+     <string name="error_email_invalide">L\'adresse e-mail est invalide</string>
+     <string name="error_pseudo_not_availaible">Ce pseudo n\'est pas disponible</string>
+     <string name="error_email_not_availaible">Cette adresse e-mail est déjà utilisé</string>
+     <string name="error_password_confirme">Le mot de passe est différent</string>
+     <string name="error_login">E-mail ou mot de passe incorrect</string>
+     <string name="error_no_twitter_app">Twitter n\'est pas installé sur votre système</string>
+     <string name="error_sujet_conversation">Le sujet de la conversation est vide</string>
+     <string name="error_message_vide">Votre message est vide</string>
+     <string name="error_upload_avatar_en_cours">L\'upload de l\'avatar est en cours&#8230;</string>
+     <string name="error_upload_background_en_cours">L\'upload de l\'image de fond est en cours&#8230;</string>
+     <string name="error_upload_non_termine">L\'upload n\'a pas encore terminé !</string>
+     <string name="error_selectionne_trajet">Vous devez d\'abord séléctionner un type de trajet</string>
+     <string name="error_add_item_titre_vide">Le titre est vide</string>
+     <string name="error_add_item_description_vide">La description est vide</string>
+     <string name="error_add_item_presentation_vide">La presentation est vide</string>
+     <string name="error_add_item_verifier_prix">Vérifier le prix</string>
+     <string name="error_upload_fail">L\'upload de l\'image a échoué</string>
+     <string name="error_nom_prenom">Nom et prénom obligatoires</string>
+	 <string name="error_account_banned">Votre compte est banni</string>
+     
+      <!-- 
+    	############################################################### 
+    	Menus
+    	############################################################### 
+     -->
+
+	 <string name="reglement">Réglement</string>
+	 <string name="menu_add_item">Ajouter un item</string>
+	 <string name="menu_messagerie">Messagerie</string>
+	 <string name="menu_notifications">Notifications</string>
+	 <string name="menu_espace">Mon espace</string>
+	 <string name="menu_filtre_recherche">Filtre de recherche</string> 
+	 <string name="menu_favoris">Favoris</string> 
+	 <string name="menu_enregistre_filtre">Enregistrer le filtre</string> 
+	 <string name="menu_envoyer_message">Lui envoyer un message</string>
+	 <string name="menu_duree_trajet">Durée du trajet</string>
+	 <string name="menu_trajet_a_pied">Trajet à pied</string>
+	 <string name="menu_trajet_en_voiture">Trajet en voiture</string>
+	 <string name="menu_position_item">Position de l\item</string>
+	 <string name="menu_send_message">Envoyer un message</string>
+	 <string name="menu_edition_profile">Éditer votre profil</string>
+	 <string name="menu_enregistre_information">Enregistrer les informations</string>
+	 <string name="menu_astuce">Astuce(s)</string>
+	 <string name="menu_notifications_action">Notifications action</string>
+	 
+	  <!-- 
+    	############################################################### 
+    	PopupMain Titres
+    	############################################################### 
+     -->
+     
+     <string name="titre_popupmain_supprime_favoris">Supprimer des favoris</string>
+	 
+	 
+	   <!-- 
+    	############################################################### 
+    	Filtres
+    	############################################################### 
+     -->
+     
+     <string name="filtre_plus_recente">Les plus récentes</string>
+	 <string name="filtre_a_proximite">À proximité de moi</string>
+	 <string name="filtre_selon_endroit">Selon un endroit</string>
+	 <string name="filtre_prix_croissant">Prix croissant</string>
+	 <string name="filtre_plus_aime_actuellement">Les plus aimées actuellement</string>
+	 <string name="filtre_plus_aime_generale">Les plus aimées en général</string> 
+	 <string name="filtre_plus_vus_actuellement">Les plus vues actuellement</string> 
+	 <string name="filtre_plus_vus_generale">Les plus vues en général</string> 
+	 
+	 
+	  <!-- 
+    	############################################################### 
+    	Toggle Buttons
+    	############################################################### 
+     -->
+     
+     <string name="toggle_button">Toggle Button</string>
+     <string name="oui">Oui</string>
+	 <string name="non">Non</string>
+	 
+	 <!-- 
+    	############################################################### 
+    	Items propriétés
+    	############################################################### 
+     -->
+     
+     <string name="categorie">Catégorie</string>
+     <string name="sous_categorie">Sous-catégorie</string>
+	 <string name="offre">Offre</string>
+	 <string name="demande">Demande</string>
+	  <string name="neuf">Neuf</string>
+	 <string name="Offre_et_demande">Offre &amp; demande</string>
+	 <string name="type_annonce">Type d\'annonce</string>
+
+
+	<string name="call">Appeler</string>
+	<string name="attention">Attention !</string>
+	<string name="quitter_activity">Voulez-vous vraiment quitter ?</string>
+	 
+     <!-- User -->
+     
+     <string name="profile_apropos"><![CDATA[<b>À propos :</b>]]></string>
+     <string name="profile_localisation"><![CDATA[<b>Localisation :</b>]]></string>
+
+      <!-- 
+    	############################################################### 
+    	ShowCaseView
+    	############################################################### 
+     -->
+
+	<plurals name="list_card_undo_items">
+		<item quantity="one">1 conversation supprimée</item>
+		<item quantity="other">%d conversations supprimées</item>
+	</plurals>
+
+	<string name="supprimer_conversation">Suppression conversation</string>
+	<string name="supprimer_conversation_conf">Veux-tu vraiment supprimer la conversation ?</string>
+
+    <string name="accueil">Accueil</string>
+    <string name="cancel">Quitter</string>
+    <string name="done">OK</string>
+    <string name="take_photo">Prendre une photo</string>
+    <string name="gallery">Galerie</string>
+    <string name="progress_title">Chargement&#8230;</string>
+
+     <string name="titre_showcaseview_main_activity">Exprime toi !</string>
+     <string name="content_showcaseview_main_activity">
+         Pour poster sur DzBac, tu n\'as qu\'à cliquez sur le bouton en bas !
+     </string>
+
+    <string name="titre_showcaseview_show_item_activity">Donne ton avis !</string>
+    <string name="content_showcaseview_show_item_activity">
+     Tu peux aimer un poste, cela aidera les autres à savoir si il est intéressant !
+    </string>
+	<string name="a_propos_competition">À propos</string>
+	<string name="format">Format</string>
+
+
+
+	<string name="selection_disabled">Disabled</string>
+
+	<string name="selection_default">Default</string>
+
+	<string name="unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+
+	<string name="enable_random_adaptation">Enable random adaptation</string>
+
+	<string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
+
+	<string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+
+	<string name="error_drm_unknown">An unknown DRM error occurred</string>
+
+	<string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+	<string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+	<string name="error_querying_decoders">Unable to query device decoders</string>
+
+	<string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+	<string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+
+	<string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+	<string name="storage_permission_denied">Permission to access storage was denied</string>
+
+	<string name="sample_list_load_error">One or more sample lists failed to load</string>
+
+	<string name="ima_not_loaded">Playing sample without ads, as the IMA extension was not loaded</string>
+	<string name="verifier_mon_numero">Vérifier mon numéro de téléphone</string>
+
+</resources>

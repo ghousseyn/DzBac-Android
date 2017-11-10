@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <!-- 
+     
+      CUSTOM VALUES 
+    
+     -->
+    
+    <dimen name="width_show_annonce_slider">450dp</dimen>
+  <!-- <dimen name="height_show_annonce_slider">400dp</dimen>  -->  
+    
+</resources>

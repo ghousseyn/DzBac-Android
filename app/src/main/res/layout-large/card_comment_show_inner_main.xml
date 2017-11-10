@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+
+    <RelativeLayout
+        android:id="@+id/comment_layout"
+        android:layout_margin="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+		<FrameLayout
+			android:id="@+id/frame_avatar"
+			android:layout_margin="5dp"
+			android:layout_alignParentLeft="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<de.hdodenhof.circleimageview.CircleImageView
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/avatar_user"
+				android:layout_width="@dimen/side_avatar_commentaire"
+				android:layout_height="@dimen/side_avatar_commentaire"
+				app:civ_border_width="2dp"
+				app:civ_border_color="#FFFFFF"/>
+
+
+			<com.beardedhen.androidbootstrap.FontAwesomeText
+				android:id="@+id/font_contribution"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|right"
+				fontawesometext:fa_icon="fa-check-square"
+				bootstrapbutton:bb_type="primary"
+				android:textColor="@color/Red"
+				android:layout_marginLeft="15dp"
+				android:textSize="22sp"
+				/>
+
+		</FrameLayout>
+    
+	    <!-- basic text-->
+	<com.beardedhen.androidbootstrap.FontAwesomeText
+	    android:id="@+id/font_edit_comment"
+	    android:visibility="gone"
+        android:layout_alignParentRight="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    fontawesometext:fa_icon="fa-pencil"
+	    android:layout_margin="5dp"
+	    android:textSize="20sp"
+	/>
+    
+     <TextView
+        android:id="@+id/pseudo_user"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/frame_avatar"
+        android:textColor="@color/vert_icon_app"
+        android:layout_marginTop="3dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    
+     <TextView
+        android:id="@+id/date_commentaire"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:layout_margin="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+        android:id="@+id/message_commentaire"
+        android:layout_toRightOf="@id/frame_avatar"
+        android:layout_toLeftOf="@id/font_edit_comment"
+        android:layout_below="@id/pseudo_user"
+        android:autoLink="web"
+        android:paddingBottom="5dp"
+        android:layout_margin="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fontPath="fonts/Roboto-Regular.ttf"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+         />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/imageView"
+        android:layout_below="@id/comment_layout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+	<FrameLayout android:layout_width="match_parent"
+		android:id="@+id/frame_audio"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/comment_layout"
+		android:background="@android:color/holo_blue_dark"
+		android:textSize="40dp">
+
+		<com.hugomatilla.audioplayerview.AudioPlayerView
+			android:id="@+id/play"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:padding="30dp"
+			android:textColor="@android:color/white"
+			android:textSize="40dp"/>
+	</FrameLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="filtre_type">
+		<item>Tous</item>
+		<item>Aide</item>
+		<item>Sujet</item>
+		<item>Bac Blanc</item>
+		<item>Résumé</item>
+		<item>Conseil</item>
+		<item>Challenge</item>
+	 </string-array>
+
+	<string-array name="filtre_format">
+		<item>Tous</item>
+		<item>Post avec Image(s)</item>
+		<item>Post avec Audio</item>
+		<item>Post avec Vidéo</item>
+	</string-array>
+	 
+    <string-array name="type">
+		<item>Sélectionne un type</item>
+		<item>Aide</item>
+		<item>Sujet</item>
+		<item>Bac Blanc</item>
+		<item>Résumé</item>
+		<item>Conseil</item>
+		<item>Challenge</item>
+	 </string-array>
+
+	<string-array name="type_de_post">
+		<item>Le but de ton post ?</item>
+		<item>J\'ai besoin d\'aide !</item>
+		<item>Je partage un sujet</item>
+		<item>Je partage un Bac blanc !</item>
+		<item>Je partage un résumé</item>
+		<item>Je donne un conseil !</item>
+		<item>Je lance un challenge !</item>
+	</string-array>
+
+	<string-array name="filiere">
+		<item>Sélectionne une filière</item>
+		<item>Pour toutes les filières</item>
+		<item>Scientifique</item>
+		<item>Maths</item>
+		<item>Maths technique</item>
+		<item>Langue étrangère</item>
+		<item>Gestion</item>
+	</string-array>
+
+	<!-- Attention respectez l'ordre des tags -->
+	<string-array name="filiere_entries">
+		<item>Scientifique</item>
+		<item>Maths</item>
+		<item>Maths technique</item>
+		<item>Langue étrangère</item>
+		<item>Gestion</item>
+	</string-array>
+
+
+	<string-array name="filiere_code_add_post">
+		<item>all</item>
+		<item>sc</item>
+		<item>mat</item>
+		<item>matech</item>
+		<item>let</item>
+		<item>ges</item>
+	</string-array>
+
+	<string-array name="filiere_code">
+		<item>sc</item>
+		<item>mat</item>
+		<item>matech</item>
+		<item>let</item>
+		<item>ges</item>
+	</string-array>
+
+	<string-array name="filiere_default_value">
+		<item>sc</item>
+		<item>mat</item>
+		<item>matech</item>
+		<item>let</item>
+		<item>ges</item>
+	</string-array>
+
+    <string-array name="title_fragment_profil">
+        <item>à propos</item>
+        <item>posts</item>
+        <item>posts aimés</item>
+    </string-array>
+	 
+    <string-array name="filtre_subject">
+		<item>Tous</item>
+		<item>Sciences</item>
+		<item>Physique</item>
+		<item>Maths</item>
+		<item>Arabe</item>
+        <item>Français</item>
+        <item>Anglais</item>
+        <item>Espagnol</item>
+        <item>Allemand</item>
+		<item>Italien</item>
+		<item>Tamazight</item>
+        <item>Histoire</item>
+		<item>Géographie</item>
+		<item>Philo</item>
+		<item>Sciences Islamique</item>
+		<item>Génie électrique</item>
+        <item>Génie mécanique</item>
+		<item>Génie des procédés</item>
+		<item>Gestion économique</item>
+		<item>Génie civil</item>
+		<item>Autres</item>
+	 </string-array>
+
+	<string-array name="filtre_order">
+		<item>Date</item>
+		<item>Likes</item>
+		<item>Vues</item>
+		<item>Likes &amp; vues</item>
+	</string-array>
+	 
+    <string-array name="subject">
+		<item>Sélectionne une matière</item>
+		<item>Sciences</item>
+		<item>Physique</item>
+		<item>Maths</item>
+		<item>Arabe</item>
+        <item>Français</item>
+        <item>Anglais</item>
+        <item>Espagnol</item>
+        <item>Allemand</item>
+		<item>Italien</item>
+		<item>Tamazight</item>
+		<item>Histoire</item>
+		<item>Géographie</item>
+		<item>Philo</item>
+		<item>Sciences Islamique</item>
+		<item>Génie électrique</item>
+        <item>Génie mécanique</item>
+		<item>Génie des procédés</item>
+		<item>Gestion économique</item>
+		<item>Génie Civil</item>
+		<item>Autres</item>
+	 </string-array>
+	 
+    <string-array name="about">
+		<item>Lycéen - Science Expérimentale</item>
+		<item>Lycéen - Mathélème</item>
+		<item>Lycéen - Maths Techniques</item>
+		<item>Lycéen - Langues étrangères</item>
+        <item>Lycéen - Langues étrangères - Philo</item>
+		<item>Lycéen - Gestion</item>
+		<item>Candidat libre - Science Expérimentale</item>
+		<item>Candidat libre - Mathélème</item>
+		<item>Candidat libre - Maths Techniques</item>
+		<item>Candidat libre - Langues étrangères</item>
+		<item>Candidat libre - Langues étrangères - Philo</item>
+		<item>Candidat libre - Gestion</item>
+		<item>Prof - Sciences</item>
+		<item>Prof - Physique</item>
+		<item>Prof - Maths</item>
+		<item>Prof - Arabe</item>
+		<item>Prof - Histoire &amp; Géographie</item>
+        <item>Prof - Italien</item>
+        <item>Prof - Espagnol</item>
+        <item>Prof - Allemand</item>
+		<item>Prof - Philo</item>
+		<item>Prof - Sciences Islamique</item>
+		<item>Prof - Génie électrique</item>
+		<item>Autre</item>
+	 </string-array>
+
+    <string-array name="filtre_trier_par_user">
+        <item>@string/dernire_activite</item>
+        <item>@string/date_inscription</item>
+    </string-array>
+
+    <string-array name="filtre_about">
+        <item>Tous</item>
+        <item>Lycéen - Science Expérimentale</item>
+        <item>Lycéen - Mathélème</item>
+        <item>Lycéen - Maths Techniques</item>
+        <item>Lycéen - Langues étrangères</item>
+        <item>Lycéen - Langues étrangères - Philo</item>
+        <item>Lycéen - Gestion</item>
+        <item>Candidat libre - Science Expérimentale</item>
+        <item>Candidat libre - Mathélème</item>
+        <item>Candidat libre - Maths Techniques</item>
+        <item>Candidat libre - Langues étrangères</item>
+        <item>Candidat libre - Langues étrangères - Philo</item>
+        <item>Candidat libre - Gestion</item>
+        <item>Prof - Sciences</item>
+        <item>Prof - Physique</item>
+        <item>Prof - Maths</item>
+        <item>Prof - Arabe</item>
+        <item>Prof - Histoire &amp; Géographie</item>
+        <item>Prof - Italien</item>
+        <item>Prof - Espagnol</item>
+        <item>Prof - Allemand</item>
+        <item>Prof - Philo</item>
+        <item>Prof - Sciences Islamique</item>
+        <item>Prof - Génie électrique</item>
+        <item>Autre</item>
+    </string-array>
+	 
+    <string-array name="wilaya">
+        <item>Wilaya d\'Adrar</item>
+		<item>Wilaya de Chlef</item>
+		<item>Wilaya de Laghouat</item>
+		<item>Wilaya d\'Oum El Bouaghi</item>
+		<item>Wilaya de Batna</item>
+		<item>Wilaya de Béjaïa</item>
+		<item>Wilaya de Biskra</item>
+		<item>Wilaya de Béchar</item>
+		<item>Wilaya de Blida</item>
+		<item>Wilaya de Bouira</item>
+		<item>Wilaya de Tamanrasset</item>
+		<item>Wilaya de Tébessa</item>
+		<item>Wilaya de Tlemcen</item>
+		<item>Wilaya de Tiaret</item>
+		<item>Wilaya de Tizi Ouzou</item>
+		<item>Wilaya d\'Alger</item>
+		<item>Wilaya de Djelfa</item>
+		<item>Wilaya de Jijel</item>
+		<item>Wilaya de Sétif</item>
+		<item>Wilaya de Saïda</item>
+		<item>Wilaya de Skikda</item>
+		<item>Wilaya de Sidi Bel Abbès</item>
+		<item>Wilaya d\'Annaba</item>
+		<item>Wilaya de Guelma</item>
+		<item>Wilaya de Constantine</item>
+		<item>Wilaya de Médéa</item>
+		<item>Wilaya de Mostaganem</item>
+		<item>Wilaya de M\'Sila</item>
+		<item>Wilaya de Mascara</item>
+		<item>Wilaya d\'Ouargla</item>
+		<item>Wilaya d\'Oran</item>
+		<item>Wilaya d\'El Bayadh</item>
+		<item>Wilaya d\'Illizi</item>
+		<item>Wilaya de Bordj Bou Arreridj</item>
+		<item>Wilaya de Boumerdès</item>
+		<item>Wilaya d\'El Tarf</item>
+		<item>Wilaya de Tindouf</item>
+		<item>Wilaya de Tissemsilt</item>
+		<item>Wilaya d\'El Oued</item>
+		<item>Wilaya de Khenchela</item>
+		<item>Wilaya de Souk Ahras</item>
+		<item>Wilaya de Tipaza</item>
+		<item>Wilaya de Mila</item>
+		<item>Wilaya d\'Aïn Defla</item>
+		<item>Wilaya de Naâma</item>
+		<item>Wilaya d\'Aïn Témouchent</item>
+		<item>Wilaya de Ghardaia</item>
+		<item>Wilaya de Relizane</item>
+    </string-array>
+
+
+
+	<string-array name="filtre_wilaya">
+		<item>Tous</item>
+		<item>Wilaya d\'Adrar</item>
+		<item>Wilaya de Chlef</item>
+		<item>Wilaya de Laghouat</item>
+		<item>Wilaya d\'Oum El Bouaghi</item>
+		<item>Wilaya de Batna</item>
+		<item>Wilaya de Béjaïa</item>
+		<item>Wilaya de Biskra</item>
+		<item>Wilaya de Béchar</item>
+		<item>Wilaya de Blida</item>
+		<item>Wilaya de Bouira</item>
+		<item>Wilaya de Tamanrasset</item>
+		<item>Wilaya de Tébessa</item>
+		<item>Wilaya de Tlemcen</item>
+		<item>Wilaya de Tiaret</item>
+		<item>Wilaya de Tizi Ouzou</item>
+		<item>Wilaya d\'Alger</item>
+		<item>Wilaya de Djelfa</item>
+		<item>Wilaya de Jijel</item>
+		<item>Wilaya de Sétif</item>
+		<item>Wilaya de Saïda</item>
+		<item>Wilaya de Skikda</item>
+		<item>Wilaya de Sidi Bel Abbès</item>
+		<item>Wilaya d\'Annaba</item>
+		<item>Wilaya de Guelma</item>
+		<item>Wilaya de Constantine</item>
+		<item>Wilaya de Médéa</item>
+		<item>Wilaya de Mostaganem</item>
+		<item>Wilaya de M\'Sila</item>
+		<item>Wilaya de Mascara</item>
+		<item>Wilaya d\'Ouargla</item>
+		<item>Wilaya d\'Oran</item>
+		<item>Wilaya d\'El Bayadh</item>
+		<item>Wilaya d\'Illizi</item>
+		<item>Wilaya de Bordj Bou Arreridj</item>
+		<item>Wilaya de Boumerdès</item>
+		<item>Wilaya d\'El Tarf</item>
+		<item>Wilaya de Tindouf</item>
+		<item>Wilaya de Tissemsilt</item>
+		<item>Wilaya d\'El Oued</item>
+		<item>Wilaya de Khenchela</item>
+		<item>Wilaya de Souk Ahras</item>
+		<item>Wilaya de Tipaza</item>
+		<item>Wilaya de Mila</item>
+		<item>Wilaya d\'Aïn Defla</item>
+		<item>Wilaya de Naâma</item>
+		<item>Wilaya d\'Aïn Témouchent</item>
+		<item>Wilaya de Ghardaia</item>
+		<item>Wilaya de Relizane</item>
+	</string-array>
+
+
+</resources>

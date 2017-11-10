@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp">
+
+    <!-- Les CardView possèdent des attributs supplémentaires dont
+         - cardBackgroundColor
+         - cardElevation pour l'élévation (donc aussi l'ombre)
+         - cardCornerRadius pour arrondir les angles
+     -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Les CardView agissent comme des FrameLayout,
+         pour avoir une organisation verticale nous devons
+         donc rajouter un LinearLayout -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageUser"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|bottom"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    tools:text="Paris"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    style="@style/text_cell_user"
+                    fontPath="fonts/Roboto-Regular.ttf" />
+
+                <TextView
+                    android:id="@+id/localisation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    tools:text="Paris"
+                    android:layout_margin="10dp"
+                    android:fontFamily="sans-serif"
+                    style="@style/text_cell_user"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            tools:text="Paris"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            fontPath="fonts/Roboto-Regular.ttf"
+            android:textColor="#333"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dateLastActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            tools:text="Paris"
+            android:layout_gravity="end|bottom"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            fontPath="fonts/Roboto-Regular.ttf"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

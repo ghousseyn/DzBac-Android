@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <EditText
+            android:id="@+id/edit_nom_prenom"
+            android:maxLength="18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/nom_et_prenom"
+            android:gravity="center"
+            android:background="@drawable/background_edittext2"
+	/>
+    
+   <TextView
+       style="@style/textStyle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/apropos"/>
+    
+    <Spinner
+        android:id="@+id/spinner_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/about"
+         />
+    
+    
+    <TextView
+       style="@style/textStyle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/localisation"/>
+    
+    <Spinner
+        android:id="@+id/spinner_localisation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/wilaya"
+         />
+   
+      <RelativeLayout 
+       android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:layout_margin="10dp"
+	   android:orientation="horizontal">
+       
+   </RelativeLayout>
+    
+    
+
+</LinearLayout>

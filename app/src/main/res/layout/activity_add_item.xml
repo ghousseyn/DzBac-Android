@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/main_layout"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/app_bar"/>
+
+        <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+            android:id="@+id/smooth_add_item"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:visibility="gone"
+            android:indeterminate="true"
+            style="@style/TopProgressBar"/>
+
+
+<!--
+        <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+            android:id="@+id/smooth_add_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:indeterminate="true"
+            style="@style/GPlusProgressBar"/>
+            -->
+
+
+    
+    
+    <HorizontalScrollView
+         android:id="@+id/horizontal_scroll_container_photos"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp" 
+        >
+        
+        <LinearLayout 
+            android:id="@+id/linear_container_photos"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_1"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    />  
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_2"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    />  
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_3"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    />  
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_4"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_5"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_6"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_7"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_8"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_9"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_10"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_11"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_12"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_13"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_14"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		    <ImageView 
+		          android:id="@+id/photo_item_15"
+		          android:visibility="gone"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    />
+
+            <ImageView
+                android:id="@+id/photo_item_16"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_17"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_18"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_19"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_20"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_21"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_22"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_23"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_24"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_25"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_26"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_27"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_28"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_29"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+            <ImageView
+                android:id="@+id/photo_item_30"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/djihti_photo"
+                />
+
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/photo_item_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                fontawesometext:fa_icon="fa-camera"
+                android:layout_margin="10dp"
+                android:textSize="45sp"
+				android:textColor="@color/vert_smargadin"
+                />
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/file_item_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                fontawesometext:fa_icon="fa-file"
+                android:layout_margin="10dp"
+                android:textSize="45sp"
+				android:textColor="@color/rouge_nacarat"
+                />
+
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/audio_item_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                fontawesometext:fa_icon="fa-microphone"
+                android:layout_margin="10dp"
+                android:textSize="45sp"
+				android:textColor="@color/bleu"
+                />
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/camera_item_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                fontawesometext:fa_icon="fa-video-camera"
+                android:layout_margin="10dp"
+                android:textSize="45sp"
+				android:textColor="@color/orange"
+                />
+
+
+
+            <!--
+            <ImageView
+		          android:id="@+id/photo_item_add"
+		          android:layout_gravity="right"
+		          android:layout_margin="5dp"
+		          android:layout_width="100dp"
+		          android:layout_height="100dp"
+				  android:src="@drawable/djihti_photo"          
+		    /> 
+		    
+		     -->
+        
+      </LinearLayout>
+        
+    </HorizontalScrollView>
+
+
+<!--
+        <com.daimajia.numberprogressbar.NumberProgressBar
+            android:id="@+id/smooth_progress_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:visibility="gone"
+            />
+   -->
+    <it.gmariotti.cardslib.library.view.CardView
+                android:id="@+id/card_info_add_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+             />
+    
+    
+    <info.hoang8f.widget.FButton
+                android:id="@+id/btn_depose_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/btn_depose_item"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                fbutton:buttonColor="@color/fbutton_color_green_sea"
+                fbutton:shadowEnabled="true" />
+    
+    </LinearLayout>
+    
+
+</ScrollView>

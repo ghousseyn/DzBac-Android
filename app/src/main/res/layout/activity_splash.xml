@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeSplash"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transition_splash"
+    tools:context=".ui.splash.SplashActivity"
+ >
+
+
+    <TextView
+        android:id="@+id/txt_intro"
+        android:padding="80dp"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/app_name"/>
+
+
+    <TextView
+        android:layout_margin="15dp"
+        android:id="@+id/txt_presentation_dzbac"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        fontPath="fonts/Roboto-Regular.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pret_a_obtenir"
+        android:layout_below="@id/txt_intro"/>
+ 
+
+    <Button
+        android:id="@+id/btn_inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_inscription_conf"
+        android:visibility="gone"
+        style="@style/ButtonText"
+        android:text="@string/btn_inscription" 
+         />
+
+    <Button
+        android:id="@+id/btn_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_inscription"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_connexion_conf"
+        android:visibility="gone"
+        style="@style/ButtonText"
+        android:text="@string/btn_connexion" />
+
+
+ 
+</RelativeLayout>

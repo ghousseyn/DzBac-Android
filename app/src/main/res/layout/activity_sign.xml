@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <include layout="@layout/app_bar"/>
+
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/editPseudoSign"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:textCursorDrawable="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nom_et_prenom"
+        bootstrapbutton:be_roundedCorners="true"
+        bootstrapbutton:be_state="primary"
+        android:padding="10dp"
+        android:ems="10">
+
+        <requestFocus />
+    </com.beardedhen.androidbootstrap.BootstrapEditText>
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/editMdpSign"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textCursorDrawable="@null"
+        android:hint="@string/mot_de_passe"
+        bootstrapbutton:be_roundedCorners="true"
+        bootstrapbutton:be_state="primary"
+        android:padding="10dp"
+        android:ems="10" />
+
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/editMdpConfirmeSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        android:hint="@string/confirme_mdp"
+        android:visibility="gone"
+        bootstrapbutton:be_roundedCorners="true"
+        bootstrapbutton:be_state="primary"
+        android:padding="10dp"
+        android:ems="10" />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/editEmailSign"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textCursorDrawable="@null"
+        android:hint="@string/email"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        bootstrapbutton:be_roundedCorners="true"
+        bootstrapbutton:be_state="primary"
+        android:ems="10" />
+    
+    <ProgressBar
+        android:id="@+id/progressSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inscription" 
+        android:background="@drawable/btn_connexion_conf"
+        style="@style/ButtonText"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

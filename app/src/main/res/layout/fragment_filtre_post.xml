@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edit_mot_cle_annonce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:maxLength="30"
+            android:textCursorDrawable="@null"
+            android:hint="@string/que_cherchez_vous"
+            bootstrapbutton:be_roundedCorners="true"
+            bootstrapbutton:be_state="default" />
+
+
+        <it.gmariotti.cardslib.library.view.CardView
+            android:id="@+id/card_filtre_annonce_id1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/save_filtre"
+            bootstrapbutton:bb_icon_right="fa-search"
+            bootstrapbutton:bb_type="warning"
+            />
+
+        <!-- basic button -->
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btn_default_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:text="@string/remettre_filtre_default"
+            bootstrapbutton:bb_icon_right="fa-eraser"
+            bootstrapbutton:bb_type="default"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+

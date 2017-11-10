@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_facebook_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@color/bleu_facebook"
+        style="@style/ButtonText"
+        android:text="@string/sur_facebook" />
+
+    <Button
+        android:id="@+id/btn_google_plus_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_facebook_"
+        android:background="@color/rouge_terracota"
+        style="@style/ButtonText"
+        android:text="@string/google_plus" />
+
+    <Button
+        android:id="@+id/btn_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_google_plus_"
+        android:background="@color/bleu_clair"
+        style="@style/ButtonText"
+        android:text="@string/twitter" />
+
+    <Button
+        android:id="@+id/btn_google_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_twitter"
+        android:background="@color/Saumon"
+        style="@style/ButtonText"
+        android:text="@string/google_play" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 
+     
+      CUSTOM VALUES 
+    
+     -->
+
+    <dimen name="avatar_user_call">300dp</dimen>
+    
+    <dimen name="height_show_annonce_slider">400dp</dimen>
+    
+    <dimen name="side_avatar_commentaire">80dp</dimen>
+    
+     <!-- Size text count messages main menu -->
+     <dimen name="size_count_message">16sp</dimen>
+
+    <dimen name="size_path_dzbac">400dp</dimen>
+    <dimen name="text_message">18sp</dimen>
+     
+     <!-- Dimension avatar ShowProfileActivity -->
+     <dimen name="dimen_avatar_show_profile">200dp</dimen>
+
+    <dimen name="flexible_space_image_height">360dp</dimen>
+    
+</resources>

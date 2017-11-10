@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--Staggered -->
+    <integer name="carddemo_extras_basestaggered_nlines">4</integer>
+    
+    <!-- Le côté du carré de l'avatar au niveau des commentaires -->
+    <integer name="side_image_comment">35</integer>
+    
+    <integer name="text_size_comment">11</integer>
+      
+    <!-- Pour les colonne Pinterest -->
+    <integer name="nombre_colonne_land">3</integer>
+    <integer name="nombre_colonne_portrait">2</integer>
+    
+    <!-- Temps pour la vérification de nouveaux messages -->
+    <integer name="time_fetch_message">60000</integer>
+    
+</resources>

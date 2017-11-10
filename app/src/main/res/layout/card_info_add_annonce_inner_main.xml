@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+       style="@style/textStyle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/type"/>
+    
+    <Spinner
+       android:id="@+id/spinner_type"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:entries="@array/type_de_post" />
+    
+    <TextView
+       style="@style/textStyle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/matiere"/>
+    
+    <Spinner
+        android:id="@+id/spinner_matiere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/subject"
+         />
+
+    <TextView
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filiere"/>
+
+
+    <com.greenfrvr.hashtagview.HashtagView
+        android:id="@+id/hashtags5"
+        style="@style/HashtagView"
+        app:rowGravity="center"
+        app:rowMode="stretch"
+        app:tagBackground="@drawable/item_bg_1"
+        app:tagDrawablePadding="4dp"
+        app:tagForeground="@drawable/flat_button_light"
+        android:layout_margin="10dp"
+        app:tagPaddingBottom="@dimen/padding_vertical"
+        app:tagPaddingLeft="@dimen/padding_horizontal"
+        app:tagPaddingRight="@dimen/padding_horizontal"
+        app:tagPaddingTop="@dimen/padding_vertical"
+        android:visibility="gone"
+        app:tagTextColor="#E5E5E5" />
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:id="@+id/tag_item_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        fontawesometext:fa_icon="fa-pencil-square"
+        android:layout_margin="10dp"
+        bootstrapbutton:bb_type="primary"
+        android:textColor="@color/vert_icon_app"
+        android:textSize="35sp"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner_filiere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/filiere"
+        android:visibility="gone"
+        />
+
+
+	 <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edit_titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:maxLength="50"
+            android:hint="@string/titre"
+            android:inputType="text"
+             android:textCursorDrawable="@null"
+             android:background="@drawable/background_edittext2"
+            bootstrapbutton:be_roundedCorners="true"
+            android:gravity="center"
+            bootstrapbutton:be_state="primary"
+	 />
+
+	  <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:maxLength="3000"
+          android:textCursorDrawable="@null"
+            android:inputType="textMultiLine"
+            android:hint="@string/description"
+            bootstrapbutton:be_roundedCorners="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            bootstrapbutton:be_state="primary"
+	 />
+
+    <TextView
+        android:layout_gravity="bottom|center"
+        android:layout_margin="10dp"
+        android:id="@+id/txt_reglement"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dzbac_reglement_info"/>
+
+</LinearLayout>

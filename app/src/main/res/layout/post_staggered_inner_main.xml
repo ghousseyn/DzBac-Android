@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <!-- Card visible layout -->
+            <it.gmariotti.cardslib.library.view.ForegroundLinearLayout
+                android:id="@+id/card_main_layout"
+                style="@style/card.main_layout_foreground.kitkat"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <FrameLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.squalala.dzbac.utils.DynamicHeightPicassoCardThumbnailView
+                        style="@style/card_thumbnail_outer_layout"
+                        android:id="@+id/card_thumbnail_layout"
+                        android:layout_width="match_parent"
+                        android:paddingTop="0dp"
+                        android:layout_gravity="left"
+                        card:card_thumbnail_layout_resourceID="@layout/carddemo_extras_staggered_thumbnail_layout"
+                        android:layout_height="wrap_content"/>
+
+                    <com.beardedhen.androidbootstrap.FontAwesomeText
+                        android:id="@+id/play_video"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        fontawesometext:fa_icon="fa-play-circle"
+                        android:textColor="@color/bleu"
+                        android:textSize="65sp"
+                        />
+
+
+
+                </FrameLayout>
+
+
+            </it.gmariotti.cardslib.library.view.ForegroundLinearLayout>
+
+
+    </LinearLayout>
+
+
+
+		<com.beardedhen.androidbootstrap.FontAwesomeText
+		    android:id="@+id/trash_favoris_staggered"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    fontawesometext:fa_icon="fa-trash-o"
+		    android:layout_margin="5dp"
+		    android:textSize="28sp"
+		    android:visibility="gone"
+
+		    android:layout_gravity="center"
+		/>
+
+    <!-- Parties de gestion de l'item  -->
+
+    <LinearLayout
+        android:id="@+id/gestion_item_staggered"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/redit_item_staggered"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fontawesometext:fa_icon="fa-pencil"
+                android:textColor="@color/grey"
+                android:textSize="28sp"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relative_delete_signale_staggered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/delete_signale_staggered"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fontawesometext:fa_icon="fa-warning"
+                android:textColor="@color/grey"
+                android:textSize="28sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/icon_uppost"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fontawesometext:fa_icon="fa-repeat"
+                android:textColor="@color/grey"
+                android:textSize="28sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/trash_item_staggered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                fontawesometext:fa_icon="fa-trash-o"
+                android:textColor="@color/grey"
+                android:textSize="28sp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/post_title"
+        android:text="ererer"
+        android:textColor="@color/black"
+        fontPath="fonts/Roboto-Regular.ttf"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:text="eerer "
+        android:textColor="@color/demo_card_staggered_subtitle"
+        android:id="@+id/post_type"
+        android:padding="3dp"
+        style="@style/card.base_simple_title"/>
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/post_matiere"
+        android:textColor="#A0C1FC"
+        android:text="5000 da"
+         android:padding="3dp"
+        style="@style/card.base_simple_title"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#c0c0c0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/side_avatar_commentaire">
+
+        <FrameLayout
+            android:id="@+id/frame_avatar"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/avatar_user"
+                android:layout_width="@dimen/side_avatar_commentaire"
+                android:layout_height="@dimen/side_avatar_commentaire"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FFFFFF"/>
+
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:id="@+id/font_contribution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                fontawesometext:fa_icon="fa-check-square"
+                bootstrapbutton:bb_type="primary"
+                android:textColor="@color/Red"
+                android:layout_marginLeft="15dp"
+                android:textSize="17sp"
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/pseudo_user"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#c0c0c0" />
+
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/demo_card_staggered_subtitle"
+        android:id="@+id/annonce_ville"
+        android:text="Village des Schtromph "
+        android:padding="3dp"
+        android:visibility="gone"
+        style="@style/card.base_simple_title"/>
+
+
+    <LinearLayout
+        	  android:id="@+id/linearlayout_comments"
+              android:orientation="vertical"
+              android:layout_gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+
+    <!-- Parties des nombres ( coeurs, commentaires , vues)  -->
+
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:padding="5dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/demo_card_staggered_subtitle"
+        android:layout_toRightOf="@+id/card_heart"
+        android:layout_alignBaseline="@+id/card_heart"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="2dp"
+        android:text="13k"
+        android:id="@+id/item_number_heart"
+        style="@style/bottom_card_heart_comment_view"/>
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    fontawesometext:fa_icon="fa-heart"
+        android:textColor="@color/grey"
+	    android:textSize="10sp"
+	    android:id="@+id/card_heart"
+	    android:layout_alignParentLeft="true"
+	/>
+
+    <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/relative_layout_comment"
+        >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/demo_card_staggered_subtitle"
+        android:layout_toRightOf="@+id/card_comment"
+        android:layout_alignBaseline="@+id/card_comment"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="2dp"
+        android:text="130km"
+        android:id="@+id/item_number_comment"
+        style="@style/bottom_card_heart_comment_view"/>
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    fontawesometext:fa_icon="fa-comments-o"
+	    android:textSize="10sp"
+        android:textColor="@color/grey"
+	    android:id="@+id/card_comment"
+	/>
+
+    </RelativeLayout>
+
+
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/demo_card_staggered_subtitle"
+        android:layout_alignBaseline="@+id/card_view"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentRight="true"
+        android:text="18"
+        android:id="@+id/item_number_view"
+        style="@style/bottom_card_heart_comment_view"/>
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    fontawesometext:fa_icon="fa-eye"
+	    android:textSize="10sp"
+        android:textColor="@color/grey"
+	    android:id="@+id/card_view"
+	    android:layout_toLeftOf="@id/item_number_view"
+	    
+	/>
+    
+        
+    </RelativeLayout>
+    
+   
+
+</LinearLayout>

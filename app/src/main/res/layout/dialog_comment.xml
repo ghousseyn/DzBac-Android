@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="fill_parent" >
+
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+            android:id="@+id/edit_comment_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:inputType="textMultiLine"
+            android:maxLength="2000"
+            android:hint="@string/exprimez_vous"
+            emojicon:emojiconSize="28sp"
+            android:gravity="center"
+
+	/>
+     
+     <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_send_comment_dialog"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:textSize="20sp"
+	    android:text="@string/dialog_envoyer_finale"
+	    bootstrapbutton:bb_icon_left="fa-comment"
+	    bootstrapbutton:bb_type="primary"
+	/>
+
+     <ProgressBar
+         android:id="@+id/progressBar_send_comment_dialog"
+         style="?android:attr/progressBarStyleLarge"
+         android:visibility="gone"
+         android:layout_gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+ 
+</LinearLayout>

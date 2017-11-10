@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <PreferenceCategory android:title="@string/pref_notification" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="daily_notification"
+            android:summary="@string/notification_info"
+            android:title="@string/top_post"
+            android:enabled="true" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="follower_notification"
+            android:summary="@string/follow_notification_info"
+            android:title="@string/followers"
+            android:enabled="true" >
+        </CheckBoxPreference>
+
+
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sound"
+            android:summary="@string/son_info"
+            android:title="@string/Son"
+            android:enabled="true" >  
+        </CheckBoxPreference>
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="vibrate"
+            android:summary="@string/vibreur_info"
+            android:title="@string/vibreur"
+            android:enabled="true" >  
+        </CheckBoxPreference>
+        
+    </PreferenceCategory>
+
+
+ 
+</PreferenceScreen>
